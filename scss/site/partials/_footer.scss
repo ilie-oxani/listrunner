@@ -1,0 +1,39 @@
+footer{
+	background: #1a1a1a none;
+	height: 82px;
+	margin-top: -82px;
+	position: relative;
+	font: 11px 'proxima_nova_rgregular';
+	text-transform: uppercase;
+	color: #fff;
+	.row {
+		vertical-align: middle;
+		div {
+			padding-left: 0;
+			padding-right: 0;
+			a {	
+				color: #01a2ba;
+				@include transition(color 0.35s ease-in 0s);
+				&:hover {
+					text-decoration: none;
+					color: #fff;
+				}
+				&.contactez-nous {
+					background: transparent url('/img/footer-icon.png') 0 1px no-repeat;
+					padding-right: 76px;
+					padding-left: 26px;
+				}
+			}	
+		}
+
+		div.left-bl { 
+			text-align: left;
+			float: left;
+		}
+
+		div.right-bl {
+			float: right;
+			text-align: right;
+		} 
+	}
+}

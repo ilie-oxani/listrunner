@@ -1,0 +1,118 @@
+.navbar {
+	position: relative;
+	background: #f5f5f5 none;
+	min-height: 116px;
+	border: 0 none;
+	margin-bottom: 0;
+	.navbar-brand { 
+		margin-left: 0 !important;
+		height: auto;
+		padding: 0;
+		padding-right: 114px;
+		position: relative;
+		z-index: 100;
+	}
+
+	.navbar-toggle {
+		margin: 3px 0 3px 0;
+		padding: 4px;
+		border-color: #fff;
+		@include border-radius(0);
+		&:hover {
+			border-color: #333;
+		}
+	}
+	
+	.navbar-nav {
+		text-align: left;
+
+		li {
+			font-family: 'proxima_novasemibold';
+			
+			a {
+				font-size: 18px;
+				padding: 5px 25px 5px;
+				text-transform: uppercase;
+				color: #fff;
+				@include transition(color 0.35s ease-in 0s);
+			}
+
+			&.active {
+				a {
+					background: transparent none !important;
+					color: #4a4a4a;
+				}
+			}
+
+			&:hover {
+				a:hover,
+				a:focus { color: #01a2ba;}
+			}
+		}
+	}
+	.collapse {
+		position: relative;
+
+		.navbar-form {
+			background-color: #ccc;
+			padding: 9px 9px 8px 10px;
+			@include position(absolute,29px 17px auto auto);
+			.form-group {
+				float: left;
+				margin: 0;
+				input {
+					width: 125px;
+					border: 1px solid #cdcac5;
+					background-color: #eaeaea;
+					padding: 0 10px 0 10px;
+					height: 20px;
+					font: italic 10px/10px 'proxima_nova_rgregular';
+					color: #000;
+					@include border-radius(0);
+					&:focus {
+						@include box-shadow(none);
+					}
+				}
+			}
+			.btn {
+				border: 0 none;
+				background: transparent none; 
+				padding: 0;
+				margin-left: 8px;
+				margin-top: 3px;
+				position: relative;
+				@include size(9px 10px);
+				@include box-shadow(none);
+				&:after {
+					background: transparent url('/img/icons-mdlm.png') 0 -402px no-repeat;
+					content: '';
+					display: block;
+					opacity: 1;
+					@include position(absolute,0px auto auto 0px);
+					@include size(100% 100%);
+				}
+
+				&:before {
+					background: transparent url('/img/icons-mdlm.png') -101px -402px no-repeat;
+					content: '';
+					display: block;
+					opacity: 0;
+					visibility: hidden;
+					@include position(absolute,0px auto auto 0px);
+					@include size(100% 100%);
+				}
+				&:hover {
+					&:after {
+						opacity: 0;
+						visibility: hidden;
+					}
+
+					&:before {
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+			}
+		}
+	}
+}

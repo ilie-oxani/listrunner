@@ -1,0 +1,9 @@
+@mixin box-shadow ($shadow) {
+//  content-box | border-box | inherit
+  @include prefixer(box-shadow, $shadow, webkit moz ms spec);
+}
+
+@mixin border-radius ($radius) {
+//  content-box | border-box | inherit
+  @include prefixer(border-radius, $radius, webkit moz ms spec);
+}
