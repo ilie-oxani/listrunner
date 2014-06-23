@@ -8,3 +8,6 @@ repository: https://github.com/jekyll/jekyll
 help_url: https://github.com/jekyll/jekyll-help
 google_analytics_id: UA-50755011-1
 timezone: America/Los_Angeles
+sass:
+	sass_dir: _sass
+    style: :compressed
