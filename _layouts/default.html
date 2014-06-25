@@ -1,14 +1,13 @@
 {% include top.html %}
-<body>
-	<div class="wrapper">
+<body class="">
+	<div class="wrapper {{page.page_class}}">
 		{% include header.html %}
-	  	<div class="container">
-	  		<div class="row">
-	  			{{ content }}
-	  		</div>
+		<div class="wrapper-inn">
+		  	{{ content }}
 	  	</div>
 	</div>
   	{% include footer.html %}
+  	{% include scripts.html %}
 	{% include anchor_links.html %}
 	{% include analytics.html %}
 </body>

@@ -1,0 +1,181 @@
+/*HOME PAGE*/
+.home-page .wrapper-inn {
+    background: #eeeeed url('../img/home-bg.jpg') 50% 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 73px;
+    padding-bottom: 16px;
+    .info-bl {
+        padding: 42px 0 0 0;
+        .p-title {
+            padding-top: 62px;
+            font: 300 40px/50px 'Source Sans Pro', sans-serif;
+            margin-bottom: 46px;
+            color: #232323;
+        }
+
+        .possible-start {
+            padding-bottom: 56px;
+            text-align: center;
+            @include clearfix();
+            li {
+                font: normal 18px/24px 'Source Sans Pro', sans-serif;
+                display: block;
+                float: left;
+                color: #97989b;
+                a {
+                    font: 700 18px/24px 'Source Sans Pro', sans-serif;
+                    text-decoration: underline;
+                    color: #232323;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+                .btn {
+                    color: #fff;
+                    font-weight: normal;
+                    text-decoration: none;
+                }
+                &.or {
+                    padding: 17px 36px 0; 
+                }
+
+                &.product-page { padding-top: 17px;}
+            }
+        }
+
+        .partners-bl {
+            border-top: 1px solid #d3d3d2;
+            border-bottom: 1px solid #d3d3d2;
+            padding: 37px 0;
+            text-align: center;
+            margin-bottom: 10px;
+            @include clearfix();
+            li {
+                display: block;
+                float: left;
+                position: relative;
+                padding: 0;
+                height: 58px;
+                a {
+                    display: block;
+                    img { 
+                        display: block;
+                        max-width: 100%;
+                    }
+                }
+                &.edscurge  {
+                    padding-right: 50px;
+                    a {
+                        margin-top: 15px;
+                        display: inline-block;
+                        @include size(100px 28px);
+                    }
+                }
+
+                &.citrix {
+                    padding-left: 49px;
+                    padding-right: 48px;
+                    a {
+                        margin-top: 10px;
+                        display: inline-block;
+                        @include size(100px 39px);
+                    }
+                }
+
+                &.delloite {
+                    padding-left: 49px;
+                    padding-right: 0;
+                    a {
+                        margin-top: 20px;
+                        display: inline-block;
+                        @include size(100px 19px);
+                    }
+                }
+
+                &:first-child:after {
+                    display: none;
+                }
+
+                &:after {
+                    background-color: #ddddde;
+                    display: block;
+                    content: '';
+                    margin-top: -29px;
+                    @include size(1px 58px);
+                    @include position(absolute, 50% auto auto 0px);
+                }
+            }
+        }
+    }
+
+    .video-bl {
+        padding: 0 0 0 36px;
+        float: right;
+        @include clearfix();
+        .iphone-bl {
+            background: transparent url('../img/iphone.png') 0 0 no-repeat;
+            display: block;
+            float: left;
+            position: relative;
+            @include size(366px 671px);
+            .video-btn {
+                margin-top: -69px;
+                margin-left: -34px;
+                /*background: transparent url('/img/play-btn-pattern.png') 0 0 repeat;*/
+                background: transparent url('../img/play-btn.png') 0 0 no-repeat;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                //margin: 0 auto;
+                display: block;
+                @include border-radius(50%);
+                @include size(67px);
+                /*span {
+                    background: #33cc99 none;
+                    display: block;
+                    margin: 0 auto 0;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -26px;
+                    margin-top: -26px;
+                    @include size(52px 52px);
+                    @include border-radius(50%);
+                    @include transition(background-color 0.35s);
+                    i {
+                        background-color: #fff;
+                        display: block;
+                        margin-top: -5px;
+                        margin-left: -5px;
+                        @include size(10px);
+                        @include position(absolute, 50% auto auto 50%);
+                    }                   
+                }
+
+                &:hover {
+                    span {
+                        background-color: #35d29e;
+                    }
+                }
+
+                &:active {
+                    span {
+                        background-color: #33cc99;
+                    }
+                }*/
+            }
+        }
+
+        .play-video {
+            float: right;
+            background: transparent url('../img/play-video.png') 0 0 no-repeat;
+            display: block;
+            position: relative;
+            margin-top: 224px;
+            @include size(91px 80px);
+        }
+    }
+}
+

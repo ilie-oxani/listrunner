@@ -1,0 +1,122 @@
+footer{
+	background: #232323 none;
+	height: 82px;
+	margin-top: -82px;
+	position: relative;
+	color: #fff;
+	.footer-list {
+		li {
+			min-height: 82px;
+			border-left: 1px solid #181818;
+			padding: 33px 0 28px;
+			min-height: 0;
+			&:first-child {
+				border: 0 none;
+			}
+			.social-bl {
+				li {
+					float: left;
+					border: 0 none;
+					padding: 0;
+					a {
+						background: transparent url('../img/social-icon.png') 0 0 no-repeat;
+						display: block;
+					}
+					&.facbook {
+						margin-right: 30px;
+						a {
+							margin-top: 0;
+							background-position: 0 0;
+							@include size(9px 21px);
+							&:hover {
+								background-position: -141px 0;
+							}
+						}
+					}
+
+					&.in {
+						margin-right: 29px;
+						a {
+							margin-top: 0;
+							background-position: -38px 0;
+							@include size(18px 18px);
+							&:hover {
+								background-position: -179px 0;
+							}
+						}
+					}
+
+					&.twitter {
+
+						a {
+							margin-top: 0;
+							background-position: -86px 0;
+							@include size(19px 15px);
+							&:hover {
+								background-position: -227px 0;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer-more {
+		display: none;
+		z-index: 1000;
+		padding-top: 52px;
+		background-color: #272727;
+		@include size(100% auto);
+		@include position(absolute,auto auto 100% auto);
+		.container {
+			.row {
+				.col-md-12 {
+					.footer-pages {
+						border-bottom: 1px solid #191919;
+						padding-bottom: 52px;
+						@include clearfix();
+						.left-bl {
+							padding-left: 0;
+							.col-md-3 {
+								padding: 0;
+								.page-tile {
+									text-transform: uppercase;
+									font: normal 18px/24px 'Source Sans Pro', sans-serif;
+									color: #858585;
+								}
+
+								.pages-list {
+									li {
+										font: 300 16px/36px 'Source Sans Pro', sans-serif;
+										color: #ccc;
+										a {
+
+											text-decoration: none;
+											color: #ccc;
+											@include transition(color 0.35s);
+											&:hover {
+												color: #33cc99;
+											}
+										}
+
+										&.active {
+											a {
+												color: #33cc99;
+											}
+										}
+									}
+								}
+							}
+						}
+
+						.right-bl {
+							font: 300 16px/28px 'Source Sans Pro', sans-serif;
+							padding-right: 0;
+							color: #f3f3f2;
+						}
+					}
+				}
+			}
+		}
+	}
+}
