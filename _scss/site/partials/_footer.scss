@@ -3,27 +3,64 @@ footer{
 	height: 82px;
 	margin-top: -82px;
 	position: relative;
+	z-index: 1000;
 	color: #fff;
 	.footer-list {
 		li {
 			min-height: 82px;
 			border-left: 1px solid #181818;
 			padding: 33px 0 28px;
-			min-height: 0;
+			min-height: 82px;
+			width: 37.5%;
+			color: #ccc;
+			a {
+				color: #ccc;
+				@include transition(color 0.35s);
+				&:hover {
+					color: #33cc99;
+				}
+			}
 			&:first-child {
 				border: 0 none;
 			}
+			
+			.phone-number {
+				display: inline-block;
+				color: #f3f3f2;
+				font: normal 16px/16px 'Source Sans Pro', sans-serif;
+				span {
+					font-weight: 300;
+					color: #858585;
+				}
+			}
+
+			.blog-Security {
+				font-size: 16px;
+				line-height: 16px;
+				color: #f3f3f2;
+				span {
+					color: #ccc;
+				}
+			}
+
 			.social-bl {
+				clear: both;
+				overflow: hidden;
+				margin-right: 47px;
+				display: block;
+				float: left;
 				li {
 					float: left;
 					border: 0 none;
 					padding: 0;
+					min-height: 0;
 					a {
 						background: transparent url('../img/social-icon.png') 0 0 no-repeat;
 						display: block;
 					}
 					&.facbook {
 						margin-right: 30px;
+						@include size(9px 21px);
 						a {
 							margin-top: 0;
 							background-position: 0 0;
@@ -36,8 +73,9 @@ footer{
 
 					&.in {
 						margin-right: 29px;
+						@include size(18px 18px);
 						a {
-							margin-top: 0;
+							margin-top: 2px;
 							background-position: -38px 0;
 							@include size(18px 18px);
 							&:hover {
@@ -47,9 +85,9 @@ footer{
 					}
 
 					&.twitter {
-
+						@include size(19px 15px);
 						a {
-							margin-top: 0;
+							margin-top: 4px;
 							background-position: -86px 0;
 							@include size(19px 15px);
 							&:hover {
@@ -59,15 +97,83 @@ footer{
 					}
 				}
 			}
+
+			a {
+				display: inline-block;
+				position: relative;
+				text-decoration: none;
+				color: #ccc;
+			}
+
+			&.live-chat {
+				width: 14%;
+				padding-left: 22px;
+				a {
+					padding-left: 37px;
+					position: relative;
+					&:after {
+						background: transparent url('../img/footer-icon.png') 0 -20px no-repeat;
+						content: '';
+						display: block;
+						margin-top: -9px;
+						@include size(15px 18px);
+						@include position(absolute, 50% auto auto 0px);
+					}
+				}
+			}
+
+			&.more-link {
+				width: 11%;
+				padding-left: 26px;
+				a {
+					display: inline-block;
+					position: relative;
+					text-decoration: none;
+					padding-right: 28px;
+					&:after {
+						background: transparent url('../img/footer-icon.png') 0 0 no-repeat;
+						content: '';
+						display: block;
+						@include position(absolute, 50% 0px auto auto);
+					}
+
+					&.more:after {
+						background-position: 0 0;
+						margin-top: -6px;	
+						@include size(12px);
+					}
+
+					&.less:after {
+						background-position: 0 -46px;
+						@include size(12px 2px);
+					}
+				}
+
+				.more { display: inline-block;}
+				.less { display: none;}
+			}
+
+			&.more-link.active {
+				background-color: #272727;
+				.more { display: none;}
+				.less { display: inline-block;}
+			}
+
+			&:nth-child(2) {
+				padding-left: 47px;
+			}
 		}
 	}
 	.footer-more {
-		display: none;
+		display: block;
+		overflow: hidden;
 		z-index: 1000;
-		padding-top: 52px;
+		padding-top: 0;
 		background-color: #272727;
-		@include size(100% auto);
+		width: 100%;
+		height: 0;
 		@include position(absolute,auto auto 100% auto);
+		@include transition(padding 0.35s);
 		.container {
 			.row {
 				.col-md-12 {
@@ -79,9 +185,10 @@ footer{
 							padding-left: 0;
 							.col-md-3 {
 								padding: 0;
-								.page-tile {
+								.page-title {
 									text-transform: uppercase;
 									font: normal 18px/24px 'Source Sans Pro', sans-serif;
+									margin-bottom: 18px;
 									color: #858585;
 								}
 
@@ -117,6 +224,10 @@ footer{
 					}
 				}
 			}
+		}
+		&.active { 
+			padding-top: 52px;
+			height: auto;
 		}
 	}
 }

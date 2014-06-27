@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+  >
+  <channel>
+    <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
+    <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed.xml" rel="self"/>
+    <link>http://jekyllrb.com/</link>
+    <pubDate>Thu, 26 Jun 2014 23:25:12 -0700</pubDate>
+    <lastBuildDate>Thu, 26 Jun 2014 23:25:12 -0700</lastBuildDate>
+    <language>en-US</language>
+    <generator>Jekyll v2.0.3</generator>
+    <description>Transform your plain text into static websites and blogs.</description>
+    <image>
+      <description>Transform your plain text into static websites and blogs.</description>
+      <url>http://jekyllrb.com/img/logo-rss.png</url>
+      <title>Jekyll • Simple, blog-aware, static sites</title>
+      <link>http://jekyllrb.com/</link>
+      <width>144</width>
+      <height>73</height>
+    </image>
+    
+    <item>
+      <title>Jekyll 1.0.0 Released</title>
+      <link>http://jekyllrb.com/news/2013/05/05/jekyll-1-0-0-released/</link>
+      <pubDate>Sun, 05 May 2013 17:12:52 -0700</pubDate>
+      <dc:creator>parkr</dc:creator>
+      
+      
+      <category>release</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/news/2013/05/05/jekyll-1-0-0-released/</guid>
+      <description>&lt;p&gt;Hey! After many months of hard work by Jekyll’s contributors, we’re excited
+to announce the first major release of the project in a long while. v1.0.0 is
+finally here! While the list of improvements and bug fixes is &lt;a href=&quot;/docs/history/#100__20130506&quot;&gt;quite lengthy&lt;/a&gt;,
+here are the highlights (thanks to &lt;a href=&quot;http://twitter.com/BenBalter&quot;&gt;@benbalter&lt;/a&gt; for the
+examples and for compiling this list):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support for the Gist tag for easily embedding Gists (&lt;a href=&quot;https://gist.github.com/benbalter/5555251&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Automatically generated post excerpts (&lt;a href=&quot;https://gist.github.com/benbalter/5555369&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Save and preview drafts before publishing (&lt;a href=&quot;https://gist.github.com/benbalter/5555992&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Take a look at the &lt;a href=&quot;/docs/upgrading/&quot;&gt;Upgrading&lt;/a&gt; page in the docs for more detailed information.&lt;/p&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

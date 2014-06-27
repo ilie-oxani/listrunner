@@ -15,6 +15,11 @@
 \*                */
 {% include css/pygments.css %}
 
+/*                *\
+ * $fancybox.css  *
+\*                */
+{% include css/jquery.fancybox.css %}
+
 {% endcapture %}
 
 {% if site.GH_ENV %}
