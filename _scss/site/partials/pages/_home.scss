@@ -41,7 +41,18 @@
                     padding: 17px 36px 0; 
                 }
 
-                &.product-page { padding-top: 17px;}
+                &.product-page { 
+                    padding-top: 17px;
+                    a {
+                        text-decoration: none;
+                        border-bottom: 2px solid #232323;
+                        @include transition(border-color 0.45s, color 0.45s);
+                        &:hover {
+                            border-color: transparent;
+                            color: #787878;
+                        }
+                    }
+                }
             }
         }
 
@@ -123,48 +134,16 @@
             .video-btn {
                 margin-top: -69px;
                 margin-left: -34px;
-                /*background: transparent url('/img/play-btn-pattern.png') 0 0 repeat;*/
                 background: transparent url('../img/play-btn.png') 0 0 no-repeat;
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                //margin: 0 auto;
                 display: block;
                 @include border-radius(50%);
                 @include size(67px);
-                /*span {
-                    background: #33cc99 none;
-                    display: block;
-                    margin: 0 auto 0;
-                    position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    margin-left: -26px;
-                    margin-top: -26px;
-                    @include size(52px 52px);
-                    @include border-radius(50%);
-                    @include transition(background-color 0.35s);
-                    i {
-                        background-color: #fff;
-                        display: block;
-                        margin-top: -5px;
-                        margin-left: -5px;
-                        @include size(10px);
-                        @include position(absolute, 50% auto auto 50%);
-                    }                   
-                }
-
                 &:hover {
-                    span {
-                        background-color: #35d29e;
-                    }
+                    background-position: 0 -70px;
                 }
-
-                &:active {
-                    span {
-                        background-color: #33cc99;
-                    }
-                }*/
             }
         }
 

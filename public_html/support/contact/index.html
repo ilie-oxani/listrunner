@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="generator" content="Jekyll v2.0.3">
     <link rel="alternate" type="application/rss+xml" title="Jekyll • Simple, blog-aware, static sites - Feed" href="/feed.xml">
     <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="https://github.com/jekyll/jekyll/commits/master.atom">
@@ -54,50 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="grid">
-                <div class="unit four-fifths">
-                    <article>
-                    <h1>Contact</h1>
-                        <p>Jekyll provides built-in support for Sass and CoffeeScript. In order to use
-them, create a file with the proper extension name (one of <code>.sass</code>, <code>.scss</code>,
-or <code>.coffee</code>) and start the file with two lines of triple dashes, like this:</p>
 
-<div class="highlight"><pre><code class="sass"><span class="nt">---</span>
-<span class="nt">---</span>
-
-<span class="c1">// start content</span>
-<span class="nc">.my-definition</span>
-  <span class="na">font-size</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.2</span><span class="kt">em</span></code></pre></div>
-
-<p>Jekyll treats these files the same as a regular page, in that the output file
-will be placed in the same directory that it came from. For instance, if you
-have a file named <code>/css/styles.scss</code> in your site’s source folder, Jekyll
-will process it and put it in your site’s destination folder under
-<code>/css/styles.css</code>.</p>
-
-<h2 id="sassscss">Sass/SCSS</h2>
-
-<p>Jekyll allows you to customize your Sass conversion in certain ways.</p>
-
-<p>If you are using Sass <code>@import</code> statements, you’ll need to ensure that your
-<code>sass_dir</code> is set to the base directory that contains your Sass files. You
-can do that thusly:</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">sass</span><span class="p-Indicator">:</span>
-    <span class="l-Scalar-Plain">sass_dir</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">_sass</span></code></pre></div>
-
-<p>The Sass converter will default to <code>_sass</code>.</p>
-
-<p>You may also specify the output style with the <code>style</code> option in your
-<code>_config.yml</code> file:</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">sass</span><span class="p-Indicator">:</span>
-    <span class="l-Scalar-Plain">style</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">:compressed</span></code></pre></div>
-
-<p>These are passed to Sass, so any output style options Sass supports are valid
-here, too.</p>
-
-                    </article>
-                </div>
                 <div class="unit one-fifth hide-on-mobiles">
   <aside>
     
@@ -289,6 +249,13 @@ here, too.</p>
   </aside>
 </div>
 
+                
+                    ---
+layout: support
+---
+
+<h1>page.author</h1>
+                
                 <div class="clear"></div>
             </div>
         </div>
@@ -368,6 +335,17 @@ here, too.</p>
                                 </div>
                             </div>
                         </div>
+                        <div class="search-bl visible-md visible-lg">
+                            <form action="">
+                                <div class="contact-bl">
+                                    <p>Want to find out how we can help you? Email us at <span>hello@listarunner.com</span> or call us at <span>+1 (855)-232-0320</span></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Search">
+                                    <button class="search-btn" type="submit"></button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -390,7 +368,7 @@ here, too.</p>
                         </li>
                         <li class="col-md-4 hidden-xs">
                             <div class="bs-docs-sections">
-                                <p class="blog-Security">Blog: <span>Security better than the bank...</span></p>
+                                <p class="blog-Security">Blog: <a href="#">Security better than the bank...</a></p>
                             </div>   
                         </li>
                         <li class="col-md-2 more-link hidden-xs">
@@ -438,7 +416,13 @@ here, too.</p>
                                 <div class="form-group col-md-12 mb-20">
                                     <input type="text" class="form-control" id="sing-up-email" placeholder="Password">
                                 </div>
-                                <button type="submit" class="btn btn-big btn-success">Log In</button>
+                                <div class="checkbox-bl">
+                                    <div class="form-group">
+                                        <input id="remember" class="checkbox-input" name="profession" type="checkbox" value="2">
+                                        <label class="checkbox-label" for="remember">Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-big btn-success">Log In</button>
+                                </div>  
                             </form>
                             <div class="bottom-bl col-md-12">
                                 <a href="#" class="forgot-password">Forgot Password?</a>

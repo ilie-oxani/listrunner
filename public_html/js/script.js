@@ -13,6 +13,12 @@ $(document).ready(function(){
 		$('body').toggleClass('overlay');
 	});
 
+	$('body.overlay:after').on('click',function(event){
+		console.log(event);
+		$('.more-link,.footer-more').removeClass('active');
+		$('body').removeClass('overlay');
+	});
+
 	$('.get-started-btn').on('click',function(){
 		$('.popup-block .get-started').removeClass('hide');
 		$('.popup-container').toggleClass('active');

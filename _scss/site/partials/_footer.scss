@@ -1,10 +1,11 @@
 footer{
 	background: #232323 none;
-	height: 82px;
+	height: 83px;
 	margin-top: -82px;
 	position: relative;
 	z-index: 1000;
-	color: #fff;
+	border-top: 1px solid #191919;
+ 	color: #fff;
 	.footer-list {
 		li {
 			min-height: 82px;
@@ -27,7 +28,7 @@ footer{
 			.phone-number {
 				display: inline-block;
 				color: #f3f3f2;
-				font: normal 16px/16px 'Source Sans Pro', sans-serif;
+				font: 300 16px/16px 'Source Sans Pro', sans-serif;
 				span {
 					font-weight: 300;
 					color: #858585;
@@ -37,6 +38,7 @@ footer{
 			.blog-Security {
 				font-size: 16px;
 				line-height: 16px;
+				font-weight: 300;
 				color: #f3f3f2;
 				span {
 					color: #ccc;
@@ -172,6 +174,7 @@ footer{
 		background-color: #272727;
 		width: 100%;
 		height: 0;
+		margin-bottom: 1px;
 		@include position(absolute,auto auto 100% auto);
 		@include transition(padding 0.35s);
 		.container {
@@ -219,7 +222,8 @@ footer{
 						.right-bl {
 							font: 300 16px/28px 'Source Sans Pro', sans-serif;
 							padding-right: 0;
-							color: #f3f3f2;
+							color: #858585;
+							p { margin-bottom: 28px;}
 						}
 					}
 				}
@@ -228,6 +232,56 @@ footer{
 		&.active { 
 			padding-top: 52px;
 			height: auto;
+		}
+
+		.search-bl {
+			padding-top: 37px;
+			padding-bottom: 39px;
+			font: 300 16px/26px 'Source Sans Pro', sans-serif;
+			color: #858585;
+			span { color: #f3f3f2;}
+			@include clearfix();
+			.contact-bl { 
+				display: inline-block;
+				padding-top: 7px;
+				float: left;
+			}
+
+			.form-group {
+				display: inline-block;
+				position: relative;
+				float: right;
+				margin-bottom: 0;
+				input {
+					font-size: 14px;
+					width: 293px;
+					background-color: #252525;
+					height: 42px;
+					border: 1px solid #191919;
+					padding-right: 45px;
+					padding-left: 21px;
+					color: #858585;
+					@include border-radius(4px);
+					@include box-shadow(none);
+					@include transition(background-color 0.35s);
+					&:focus {
+						background-color: #232323;
+					}
+				}
+
+				.search-btn {
+					background: transparent url('../img/footer-icon.png') 0 -56px no-repeat;
+					position: absolute;
+					border: 0 none;
+					display: block;
+					margin-top: -6px;
+					@include size(13px);
+					@include position(absolute,50% 23px auto auto);
+					&:hover {
+						background-position: 0 -72px;
+					}
+				}
+			}
 		}
 	}
 }

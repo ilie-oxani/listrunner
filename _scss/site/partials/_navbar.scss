@@ -39,21 +39,23 @@
 				padding: 5px 23px 5px;
 				text-transform: capitalize;
 				color: #666;
+				@include transition(color 0.45s);
 				&:hover {
 					font-weight: 400;
 					background: transparent none !important;
-					color: #000 !important;
+					color: #33cc99 !important;
 				}
 
 				&.btn {
 					padding: 10px 24px;
 					font-weight: normal;
 					color: #232323;
+					@include transition(border-color 0.45s,background-color 0.45s,color 0.45s);
 				}
 
 				&.btn.btn-login:hover {
-					border-color: #666;
-					color: #666 !important;
+					border-color: #797979;
+					color: #797979 !important;
 				}
 
 				&.btn.btn-login:active {
@@ -69,13 +71,13 @@
 
 				&.btn.btn-dark:hover {
 					color: #fff !important;
-					background-color: #3a3a3a !important;
-					border-color: #3a3a3a;
+					background-color: #4c4c4c !important;
+					border-color: #4c4c4c;
 				}
 
 				&.btn.btn-dark:active {
-					background-color: #666 !important;
-					border-color: #666;
+					background-color: #787878 !important;
+					border-color: #787878;
 				}
 			}
 
@@ -83,7 +85,7 @@
 				a {
 					font-weight: 400;
 					background: transparent none !important;
-					color: #000 !important;
+					color: #33cc99 !important;
 				}
 			}
 
