@@ -1,7 +1,9 @@
-- title: 
-  customers:
-  - casestudies
-  - foo
-  - testimonials
-  - tweets
+- name: Testimonials
+  url: /customers/testimonials/
+
+- name: Tweets
+  url: /customers/tweets/
+
+- name: Case Studies
+  url: /customers/casestudies/
 

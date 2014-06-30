@@ -11,10 +11,10 @@
     <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
     <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed.xml" rel="self"/>
     <link>http://jekyllrb.com/</link>
-    <pubDate>Mon, 30 Jun 2014 06:36:59 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Jun 2014 06:36:59 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Jun 2014 09:31:52 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Jun 2014 09:31:52 -0700</lastBuildDate>
     <language>en-US</language>
-    <generator>Jekyll v2.1.0</generator>
+    <generator>Jekyll v2.0.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
     <image>
       <description>Transform your plain text into static websites and blogs.</description>
@@ -27,14 +27,30 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/press/2012/04/06/press%20copy.html</link>
+      <link>http://jekyllrb.com/support/2012/04/06/press%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>press</category>
+      <category>support</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/press/2012/04/06/press%20copy.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/press%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first videos on this press&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/company/2012/04/06/press%205.10.06%20PM.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/press%205.10.06%20PM.html</guid>
       <description>&lt;h3&gt;This is the first post on this press&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
@@ -43,15 +59,15 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/press/2012/04/06/press.html</link>
+      <link>http://jekyllrb.com/product/2012/04/06/press%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>press</category>
+      <category>product</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/press/2012/04/06/press.html</guid>
-      <description>&lt;h3&gt;This is the first post on this press&lt;/h3&gt;
+      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/press%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first tour on this press&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
 </description>
@@ -59,16 +75,30 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/customers/tweets/2012/04/06/first-testiomonials-post.html</link>
+      <link>http://jekyllrb.com/support/2012/04/06/geting-started.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>support</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/geting-started.html</guid>
+      <description>&lt;h3&gt;This is the first post on getstarted bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/customers/2012/04/06/first-testiomonials-post.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
       <category>customers</category>
       
-      <category>tweets</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/tweets/2012/04/06/first-testiomonials-post.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-testiomonials-post.html</guid>
       <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
@@ -77,16 +107,14 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/customers/testimonials/2012/04/06/first-post.html</link>
+      <link>http://jekyllrb.com/customers/2012/04/06/first-post.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
       <category>customers</category>
       
-      <category>testimonials</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/testimonials/2012/04/06/first-post.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-post.html</guid>
       <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
@@ -95,16 +123,14 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/customers/foo/2012/04/06/first-foo-post.html</link>
+      <link>http://jekyllrb.com/customers/2012/04/06/first-foo-post.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
       <category>customers</category>
       
-      <category>foo</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/foo/2012/04/06/first-foo-post.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-foo-post.html</guid>
       <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
@@ -113,14 +139,30 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/blog/2012/04/06/blog%20copy.html</link>
+      <link>http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>blog</category>
+      <category>support</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/04/06/blog%20copy.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first post on faq bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/company/2012/04/06/blog%205.10.06%20PM.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/blog%205.10.06%20PM.html</guid>
       <description>&lt;h3&gt;This is the first post on blog bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
@@ -129,15 +171,15 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/blog/2012/04/06/blog.html</link>
+      <link>http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>blog</category>
+      <category>product</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/04/06/blog.html</guid>
-      <description>&lt;h3&gt;This is the first post on blog bldefrtyhyog&lt;/h3&gt;
+      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first post on security bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
 </description>
@@ -145,15 +187,15 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/about/2012/04/06/about%20copy.html</link>
+      <link>http://jekyllrb.com/support/2012/04/06/about%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>about</category>
+      <category>support</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/about/2012/04/06/about%20copy.html</guid>
-      <description>&lt;h3&gt;This is the first post on about bldefrtyhyog&lt;/h3&gt;
+      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/about%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first post on contact bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
 </description>
@@ -161,14 +203,30 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/about/2012/04/06/about.html</link>
+      <link>http://jekyllrb.com/product/2012/04/06/about%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
-      <category>about</category>
+      <category>product</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/about/2012/04/06/about.html</guid>
+      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/about%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first post on listrunner bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/company/2012/04/06/about%205.10.06%20PM.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/about%205.10.06%20PM.html</guid>
       <description>&lt;h3&gt;This is the first post on about bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;

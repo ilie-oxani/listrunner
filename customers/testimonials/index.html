@@ -3,12 +3,10 @@ layout: customers
 title: Testimonials
 category: testimonials
 ---
-{% include customers_top_nav.html %}
-
 {% assign no_posts = true %}
 
-{% for post in site.posts %}
-  {% if post.category == 'testimonials' %}
+{% for post in site.posts %}      
+  {% if post.category == 'casestudies' %}
     <div class="post">
       <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <small><strong>Category:</strong> {{ post.category }}</small>
@@ -22,5 +20,6 @@ category: testimonials
 {% endfor %}
 
 {% if no_posts %}
-  <div class="alert">There is no content</div>
+  <div class="alert alert-warning">There is no content</div>
 {% endif %}
+

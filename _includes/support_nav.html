@@ -1,0 +1,10 @@
+<ul class="sub-menu">
+    {% for section in site.data.support %}
+		{% if page.url contains section.url %}    	
+	    	{% assign c = "active" %}
+	    {% else %}
+	    	{% assign c = "" %}
+	    {% endif %}
+	    <li class="{{ c }}"><a href="{{ site.baseurl }}{{ section.url }}">{{ section.name }}</a></li>
+    {% endfor %}
+</ul>

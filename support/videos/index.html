@@ -3,14 +3,22 @@ layout: support
 title: Videos
 category: videos
 ---
+{% assign no_posts = true %}
+
 {% for post in site.posts %}      
-  {% if post.categories contains 'videos' %}
-	<div class="post">
-		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-		<p class="meta">Date: {{ post.date }}</p>
-		<div class="entry">
-			{{ post.content | strip_html | truncatewords: 100 }}
-		</div>
-	</div>
+  {% if post.category == 'videos' %}
+    <div class="post">
+      <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <small><strong>Category:</strong> {{ post.category }}</small>
+      <p class="meta">Date: {{ post.date }}</p>
+      <div class="entry">
+        {{ post.content }}
+      </div>
+    </div>
+    {% assign no_posts = false %}
   {% endif %}
 {% endfor %}
+
+{% if no_posts %}
+  <div class="alert alert-warning">There is no content</div>
+{% endif %}

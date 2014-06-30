@@ -1,6 +1,8 @@
-- title: 
-  product:
-  - listrunner
-  - security
-  - tour
+- name: Tour
+  url: /product/tour/
 
+- name: Security
+  url: /product/security/
+
+- name: Why Listrunner
+  url: /product/listrunner/

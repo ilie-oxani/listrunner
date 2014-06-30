@@ -2,18 +2,25 @@
 layout: default
 page_class: product-page
 ---
-
+<section class="page-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-menu">
+                    <h3 class="page-title">{{ page.title }}</h3>
+                    {% include product_nav.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="docs">
     <div class="container">
         <div class="row">
             <div class="grid">
                 <div class="unit four-fifths">
-                    <article>
-                    <h1>{{ page.title }}</h1>
-                        {{ content }}
-                    </article>
+                    {{ content }}
                 </div>
-                {% include product_contents.html %}
                 <div class="clear"></div>
             </div>
         </div>

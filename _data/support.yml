@@ -1,7 +1,11 @@
-- title: 
-  support:
-  - contact
-  - faq
-  - getingstarted
-  - videos
+- name: Geting Started
+  url: /support/geting-started/
 
+- name: Faq
+  url: /support/faq/
+
+- name: Videos
+  url: /support/videos/
+
+- name: Contact
+  url: /support/contact/

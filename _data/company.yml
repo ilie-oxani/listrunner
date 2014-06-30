@@ -1,5 +1,8 @@
-- title: 
-  company:
-  - about
-  - blog
-  - press
+- name: About
+  url: /company/about/
+
+- name: Blog
+  url: /company/blog/
+
+- name: Press
+  url: /company/press/

@@ -2,16 +2,25 @@
 layout: default
 page_class: support-page
 ---
-
+<section class="page-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-menu">
+                    <h3 class="page-title">{{ page.title }}</h3>
+                    {% include support_nav.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="docs">
     <div class="container">
         <div class="row">
             <div class="grid">
-
-                {% include support_contents.html %}
-                {% for post in site.posts %}
-
-                {% endfor %}
+                <div class="unit four-fifths">
+                    {{ content }}
+                </div>
                 <div class="clear"></div>
             </div>
         </div>
