@@ -1,6 +1,7 @@
 - title: 
   customers:
   - casestudies
+  - foo
   - testimonials
   - tweets
 

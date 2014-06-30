@@ -11,8 +11,8 @@
     <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
     <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed.xml" rel="self"/>
     <link>http://jekyllrb.com/</link>
-    <pubDate>Fri, 27 Jun 2014 07:49:35 -0700</pubDate>
-    <lastBuildDate>Fri, 27 Jun 2014 07:49:35 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Jun 2014 06:02:51 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Jun 2014 06:02:51 -0700</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.0.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -26,29 +26,152 @@
     </image>
     
     <item>
-      <title>Jekyll 1.0.0 Released</title>
-      <link>http://jekyllrb.com/news/2013/05/05/jekyll-1-0-0-released/</link>
-      <pubDate>Sun, 05 May 2013 17:12:52 -0700</pubDate>
-      <dc:creator>parkr</dc:creator>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/press/2012/04/06/press%20copy.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
       
       
-      <category>release</category>
+      <category>press</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/news/2013/05/05/jekyll-1-0-0-released/</guid>
-      <description>&lt;p&gt;Hey! After many months of hard work by Jekyll’s contributors, we’re excited
-to announce the first major release of the project in a long while. v1.0.0 is
-finally here! While the list of improvements and bug fixes is &lt;a href=&quot;/docs/history/#100__20130506&quot;&gt;quite lengthy&lt;/a&gt;,
-here are the highlights (thanks to &lt;a href=&quot;http://twitter.com/BenBalter&quot;&gt;@benbalter&lt;/a&gt; for the
-examples and for compiling this list):&lt;/p&gt;
+      <guid isPermaLink="true">http://jekyllrb.com/press/2012/04/06/press%20copy.html</guid>
+      <description>&lt;h3&gt;This is the first post on this press&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Support for the Gist tag for easily embedding Gists (&lt;a href=&quot;https://gist.github.com/benbalter/5555251&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Automatically generated post excerpts (&lt;a href=&quot;https://gist.github.com/benbalter/5555369&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Save and preview drafts before publishing (&lt;a href=&quot;https://gist.github.com/benbalter/5555992&quot;&gt;example&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/press/2012/04/06/press.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>press</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/press/2012/04/06/press.html</guid>
+      <description>&lt;h3&gt;This is the first post on this press&lt;/h3&gt;
 
-&lt;p&gt;Take a look at the &lt;a href=&quot;/docs/upgrading/&quot;&gt;Upgrading&lt;/a&gt; page in the docs for more detailed information.&lt;/p&gt;
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/customers/tweets/2012/04/06/first-post.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>customers</category>
+      
+      <category>tweets</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/customers/tweets/2012/04/06/first-post.html</guid>
+      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
 
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/customers/testimonials/2012/04/06/first-post.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>customers</category>
+      
+      <category>testimonials</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/customers/testimonials/2012/04/06/first-post.html</guid>
+      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/customers/foo/2012/04/06/first-post.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>customers</category>
+      
+      <category>foo</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/customers/foo/2012/04/06/first-post.html</guid>
+      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/blog/2012/04/06/blog%20copy.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/04/06/blog%20copy.html</guid>
+      <description>&lt;h3&gt;This is the first post on blog bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/blog/2012/04/06/blog.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/04/06/blog.html</guid>
+      <description>&lt;h3&gt;This is the first post on blog bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/about/2012/04/06/about%20copy.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>about</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/about/2012/04/06/about%20copy.html</guid>
+      <description>&lt;h3&gt;This is the first post on about bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/about/2012/04/06/about.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>about</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/about/2012/04/06/about.html</guid>
+      <description>&lt;h3&gt;This is the first post on about bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
 </description>
     </item>
     

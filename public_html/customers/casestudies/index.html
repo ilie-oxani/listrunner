@@ -9,7 +9,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="generator" content="Jekyll v2.0.3">
     <link rel="alternate" type="application/rss+xml" title="Jekyll • Simple, blog-aware, static sites - Feed" href="/feed.xml">
-    <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="https://github.com/jekyll/jekyll/commits/master.atom">
+    <link rel="alternate" type="application/atom+xml" title="Recent commits to Jekyll’s master branch" href="/commits/master.atom">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/screen.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -38,10 +38,10 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li class=""><a href="/product/listrunner">Product</a></li>
-            <li class="active"><a href="/customers/casestudies">Customers</a></li>
-            <li class=""><a href="/company/about">Company</a></li>
-            <li class=""><a href="/support/contact">Support</a></li>
+            <li class=""><a href="/product/">Product</a></li>
+            <li class="active"><a href="/customers/">Customers</a></li>
+            <li class=""><a href="/company/">Company</a></li>
+            <li class=""><a href="/support/">Support</a></li>
             <li class="login"><a class="btn btn-login" href="#">Log In</a><a class="btn btn-dark get-started-btn visible-xs" href="#">Get Started</a></li>
             <li class="get-started"><a class="btn btn-dark get-started-btn" href="#">Get Started</a></li>
         </ul> 
@@ -60,44 +60,35 @@
                 <div class="unit four-fifths">
                     <article>
                     <h1>Case Studies</h1>
-                        <p>Jekyll provides built-in support for Sass and CoffeeScript. In order to use
-them, create a file with the proper extension name (one of <code>.sass</code>, <code>.scss</code>,
-or <code>.coffee</code>) and start the file with two lines of triple dashes, like this:</p>
+                        <div>
+	<ul class="customer-nav">
+		<li class="active"><a href="/customers/casestudies">Case Studies</a></li>
+		<li class=""><a href="/customers/testimonials">Testimonials</a></li>
+		<li class=""><a href="/customers/foo">Foo</a></li>
+		<li class=""><a href="/customers/tweets">Tweets</a></li>
+	</ul>
+</div>
+<hr>
 
-<div class="highlight"><pre><code class="sass"><span class="nt">---</span>
-<span class="nt">---</span>
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
+      
+  
 
-<span class="c1">// start content</span>
-<span class="nc">.my-definition</span>
-  <span class="na">font-size</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.2</span><span class="kt">em</span></code></pre></div>
-
-<p>Jekyll treats these files the same as a regular page, in that the output file
-will be placed in the same directory that it came from. For instance, if you
-have a file named <code>/css/styles.scss</code> in your site’s source folder, Jekyll
-will process it and put it in your site’s destination folder under
-<code>/css/styles.css</code>.</p>
-
-<h2 id="sassscss">Sass/SCSS</h2>
-
-<p>Jekyll allows you to customize your Sass conversion in certain ways.</p>
-
-<p>If you are using Sass <code>@import</code> statements, you’ll need to ensure that your
-<code>sass_dir</code> is set to the base directory that contains your Sass files. You
-can do that thusly:</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">sass</span><span class="p-Indicator">:</span>
-    <span class="l-Scalar-Plain">sass_dir</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">_sass</span></code></pre></div>
-
-<p>The Sass converter will default to <code>_sass</code>.</p>
-
-<p>You may also specify the output style with the <code>style</code> option in your
-<code>_config.yml</code> file:</p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">sass</span><span class="p-Indicator">:</span>
-    <span class="l-Scalar-Plain">style</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">:compressed</span></code></pre></div>
-
-<p>These are passed to Sass, so any output style options Sass supports are valid
-here, too.</p>
 
                     </article>
                 </div>
@@ -120,7 +111,68 @@ here, too.</p>
     
   
     
-      <li class="active"><a href="/customers/casestudies/">Case Studies</a></li>
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+  
+
+  
+    
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -187,7 +239,15 @@ here, too.</p>
     
   
     
-      <li class=""><a href="/customers/testimonials/">Testimonials</a></li>
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -236,7 +296,15 @@ here, too.</p>
     
   
     
-      <li class=""><a href="/customers/tweets/">Tweets</a></li>
+  
+    
+  
+    
+  
+    
+  
+    
+  
     
   
     
@@ -466,21 +534,6 @@ here, too.</p>
 </script>
 
 	
-  <!-- Gauges (http://gaug.es/) -->
-  <script>
-    var _gauges = _gauges || [];
-    (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '503c5af6613f5d0f19000027');
-      t.src = '//secure.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-    })();
-  </script>
-
 
 
   <!-- Google Analytics (http://google.com/analytics) -->

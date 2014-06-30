@@ -1,0 +1,13 @@
+---
+layout: product
+title: Security
+category: security
+---
+{% for post in site.posts %}      
+  {% if post.categories.product contains 'security' %}
+	<div class="post">
+		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+		{{post.content}}
+	</div>
+  {% endif %}
+{% endfor %}

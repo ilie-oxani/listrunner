@@ -1,0 +1,12 @@
+---
+layout: customers
+category: about
+title: 'My first post'
+date: 2012-04-06 21:35
+---
+
+###This is the first post on about bldefrtyhyog###
+
+Hello world.
+
+

@@ -60,6 +60,7 @@ footer{
 						background: transparent url('../img/social-icon.png') 0 0 no-repeat;
 						display: block;
 					}
+					
 					&.facbook {
 						margin-right: 30px;
 						@include size(9px 21px);
@@ -284,4 +285,5 @@ footer{
 			}
 		}
 	}
+
 }
