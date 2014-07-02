@@ -11,8 +11,8 @@
     <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
     <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed.xml" rel="self"/>
     <link>http://jekyllrb.com/</link>
-    <pubDate>Mon, 30 Jun 2014 09:31:52 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Jun 2014 09:31:52 -0700</lastBuildDate>
+    <pubDate>Wed, 02 Jul 2014 08:53:33 -0700</pubDate>
+    <lastBuildDate>Wed, 02 Jul 2014 08:53:33 -0700</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.0.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -36,22 +36,6 @@
       
       <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/press%205.10.06%20PM.html</guid>
       <description>&lt;h3&gt;This is the first videos on this press&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/company/2012/04/06/press%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>company</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/press%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on this press&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
 </description>
@@ -139,38 +123,6 @@
     
     <item>
       <title>My first post</title>
-      <link>http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>support</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on faq bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/company/2012/04/06/blog%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>company</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/blog%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on blog bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
       <link>http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</link>
       <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
       <dc:creator></dc:creator>
@@ -180,6 +132,22 @@
       
       <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</guid>
       <description>&lt;h3&gt;This is the first post on security bldefrtyhyog&lt;/h3&gt;
+
+&lt;p&gt;Hello world.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My first post</title>
+      <link>http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</link>
+      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>support</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</guid>
+      <description>&lt;h3&gt;This is the first post on faq bldefrtyhyog&lt;/h3&gt;
 
 &lt;p&gt;Hello world.&lt;/p&gt;
 </description>
@@ -218,18 +186,114 @@
     </item>
     
     <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/company/2012/04/06/about%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
+      <title>Ignat Avramov</title>
+      <link>http://jekyllrb.com/company/2012/04/06/ignat-avramov.html</link>
+      <pubDate>Fri, 06 Apr 2012 12:15:00 -0700</pubDate>
       <dc:creator></dc:creator>
       
       
       <category>company</category>
       
-      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/about%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on about bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/ignat-avramov.html</guid>
+      <description>&lt;p&gt;Ignat is an MD/PhD scholar who studied health information systems at Oxford as a Rhodes Scholar. He has worked across the breadth of healthcare technology from designing novel hardware diagnostics at NASA to the implementation and evaluation of commercialized software platforms...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Xavier Muniain</title>
+      <link>http://jekyllrb.com/company/2012/04/06/xavier-muniain.html</link>
+      <pubDate>Fri, 06 Apr 2012 12:10:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/xavier-muniain.html</guid>
+      <description>&lt;p&gt;Xavier is a family doctor with practice that covers the spectrum of healthcare. He works as a hospitalist, admitting patients in the acute care setting. He also shares a maternity practice and previously ran a community based clinic. He is currently the lead for quality improvement for his hospital based practice...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Roberto Antonelli</title>
+      <link>http://jekyllrb.com/company/2012/04/06/roberto-antonelli.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:51:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/roberto-antonelli.html</guid>
+      <description>&lt;p&gt;Jeeshan is an MD/PhD scholar who studied health information systems at Oxford as a Rhodes Scholar. He has worked across the breadth of healthcare technology from designing novel hardware diagnostics at NASA to the implementation and evaluation of commercialized software platforms...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gregory Coupet</title>
+      <link>http://jekyllrb.com/company/2012/04/06/gregory-coupet.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:50:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/gregory-coupet.html</guid>
+      <description>&lt;p&gt;Trevor is a family doctor with practice that covers the spectrum of healthcare. He works as a hospitalist, admitting patients in the acute care setting. He also shares a maternity practice and previously ran a community based clinic. He is currently the lead for quality improvement for his hospital based practice...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jeeshan Chowdhury</title>
+      <link>http://jekyllrb.com/company/2012/04/06/jeeshan-chowdhury.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:42:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/jeeshan-chowdhury.html</guid>
+      <description>&lt;p&gt;Sameer handles the product direction, visual design &amp;amp; user experience for unBundle. He has over 9 years of experience in designing web &amp;amp; mobile products, throughout his career he has worked with clients such as Samsung, GM, Finning Canada and many startups...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dominic Savoie</title>
+      <link>http://jekyllrb.com/company/2012/04/06/dominic-savoie.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:41:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/dominic-savoie.html</guid>
+      <description>&lt;p&gt;Dominic is a software engineer who co-founded Enlight Health and Hacking Health. With Trevor and Jeeshan, he is using his technical and business expertise to improve access to healthcare with innovative web and mobile solutions. In his free time, likes to make MySQL asynchronous and chill with friends...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trevor Chan</title>
+      <link>http://jekyllrb.com/company/2012/04/06/trevor-chan.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:31:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/trevor-chan.html</guid>
+      <description>&lt;p&gt;Trevor is a family doctor with practice that covers the spectrum of healthcare. He works as a hospitalist, admitting patients in the acute care setting. He also shares a maternity practice and previously ran a community based clinic. He is currently the lead for quality improvement for his hospital based practice...&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sameer Ahmed</title>
+      <link>http://jekyllrb.com/company/2012/04/06/sameer-ahmed.html</link>
+      <pubDate>Fri, 06 Apr 2012 11:20:00 -0700</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>company</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/sameer-ahmed.html</guid>
+      <description>&lt;p&gt;Jeeshan is an MD/PhD scholar who studied health information systems at Oxford as a Rhodes Scholar. He has worked across the breadth of healthcare technology from designing novel hardware diagnostics at NASA to the implementation and evaluation of commercialized software platforms...&lt;/p&gt;
 </description>
     </item>
     

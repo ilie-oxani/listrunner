@@ -9,14 +9,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"></a>
+        <a class="navbar-brand" href="{{ site.baseurl }}"></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li class="{% if page.url contains '/product/' %}active{% endif %}"><a href="{{site.baseurl}}/product/">Product</a></li>
-            <li class="{% if page.url contains '/customers/' %}active{% endif %}"><a href="{{site.baseurl}}/customers/">Customers</a></li>
-            <li class="{% if page.url contains '/company/' %}active{% endif %}"><a href="{{site.baseurl}}/company/">Company</a></li>
-            <li class="{% if page.url contains '/support/' %}active{% endif %}"><a href="{{site.baseurl}}/support/">Support</a></li>
+            <li class="{% if page.url contains '/product/' %}active{% endif %}"><a href="{{site.baseurl}}/product/tour/">Product</a></li>
+            <li class="{% if page.url contains '/customers/' %}active{% endif %}"><a href="{{site.baseurl}}/customers/testimonials/">Customers</a></li>
+            <li class="{% if page.url contains '/company/' %}active{% endif %}"><a href="{{site.baseurl}}/company/about/">Company</a></li>
+            <li class="{% if page.url contains '/support/' %}active{% endif %}"><a href="{{site.baseurl}}/support/geting-started/">Support</a></li>
             <li class="login"><a class="btn btn-login" href="#">Log In</a><a class="btn btn-dark get-started-btn visible-xs" href="#">Get Started</a></li>
             <li class="get-started"><a class="btn btn-dark get-started-btn" href="#">Get Started</a></li>
         </ul> 

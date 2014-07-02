@@ -22,8 +22,38 @@ body {
 
 .wrapper {
 	position: relative;
-	min-height: 100%; 
-	padding-bottom: 82px;
+	&.home-page {
+		min-height: 100%; 
+		padding-bottom: 82px;
+	}
+}
+
+.request-demo-bl {
+	clear: both;
+    font: 300 30px/44px 'Source Sans Pro', sans-serif;
+    display: block;
+    text-align: center;
+    background: #232323 none;
+    color: #ccc;
+    .cetntrate-middle {
+        display: block;
+        width: 100%;
+        min-height: 451px;
+        .request-demo-content {
+            display: block;
+            padding-top: 120px;
+            width: 100%;
+            h1 {
+	            display: block;
+				margin-bottom: 45px;
+            }	
+        }
+    }
+    .btn.request-demo-btn {
+    	padding: 19px 55px 21px;
+    	border: 1px solid #ccc;
+    	color: #ccc;
+    }
 }
 
 

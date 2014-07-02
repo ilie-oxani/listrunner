@@ -3,20 +3,127 @@ layout: company
 title: About
 category: about
 ---
-{% for post in site.posts %}      
-  {% if post.category == 'about' %}
-    <div class="post">
-      <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <small><strong>Category:</strong> {{ post.category }}</small>
-      <p class="meta">Date: {{ post.date }}</p>
-      <div class="entry">
-        {{ post.content }}
-      </div>
+<section class="company-top-bl about-bl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-top-bl">
+                    <div class="about-top-content">
+                        <h1 class="top-title">We're changing the way the world<br> looks at data.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    {% assign no_posts = false %}
-  {% endif %}
-{% endfor %}
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="collective-bl">
+                    <h2 class="category-title">meet the team</h2>
+                    {% for post in site.posts %}      
+                        {% if post.category == 'meet_the_team' limit:1 %}
+                            <div class="col-md-6">
+                                <div class="people-bl">
+                                    <div class="people-date">
+                                        <div class="people-img">
+                                            <img src="{{site.baseurl}}/img/{{ post.image }}" alt="{{ post.name }}">
+                                        </div>
+                                        <div class="people-info">
+                                            <h3 class="people-name">{{ post.name }}</h3>
+                                            <p class="people-job">{{ post.team }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="people-content">
+                                        {{ post.content }}
+                                        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% assign no_posts = false %}
+                        {% endif %}
+                    {% endfor %}
 
-{% if no_posts %}
-  <div class="alert alert-warning">There is no content</div>
-{% endif %}
+                    {% if no_posts %}
+                        <div class="alert alert-warning">There is no content</div>
+                    {% endif %}
+                </div>
+            </div>      
+        </div>
+    </div>
+</section>
+<section class="medical-board">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="collective-bl">
+                    <h2 class="category-title">medical board</h2>
+                    {% for post in site.posts %}      
+                        {% if post.category == 'medical_board' %}
+                            <div class="col-md-6">
+                                <div class="people-bl">
+                                    <div class="people-date">
+                                        <div class="people-img">
+                                            <img src="{{site.baseurl}}/img/{{ post.image }}" alt="{{ post.name }}">
+                                        </div>
+                                        <div class="people-info">
+                                            <h3 class="people-name">{{ post.name }}</h3>
+                                            <p class="people-job">{{ post.team }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="people-content">
+                                        {{ post.content }}
+                                        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% assign no_posts = false %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if no_posts %}
+                        <div class="alert alert-warning">There is no content</div>
+                    {% endif %}
+                </div>
+            </div>      
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="collective-bl">
+                    <h2 class="category-title">investors</h2>
+                    {% for post in site.posts %}      
+                        {% if post.category == 'investors' %}
+                            <div class="col-md-6">
+                                <div class="people-bl">
+                                    <div class="people-date">
+                                        <div class="people-img">
+                                            <img src="{{site.baseurl}}/img/{{ post.image }}" alt="{{ post.name }}">
+                                        </div>
+                                        <div class="people-info">
+                                            <h3 class="people-name">{{ post.name }}</h3>
+                                            <p class="people-job">{{ post.team }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="people-content">
+                                        {{ post.content }}
+                                        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            {% assign no_posts = false %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if no_posts %}
+                        <div class="alert alert-warning">There is no content</div>
+                    {% endif %}
+                </div>
+            </div>      
+        </div>
+    </div>
+</section>

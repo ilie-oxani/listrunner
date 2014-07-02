@@ -2,8 +2,9 @@
 layout: support
 title: Videos
 category: videos
+support_page: video-page
 ---
-{% assign no_posts = true %}
+<!--{% assign no_posts = true %}
 
 {% for post in site.posts %}      
   {% if post.category == 'videos' %}
@@ -21,4 +22,80 @@ category: videos
 
 {% if no_posts %}
   <div class="alert alert-warning">There is no content</div>
-{% endif %}
+{% endif %}-->
+<div class="info-bl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="support-top-bl">
+                    <div class="support-top-content">
+                        <h1 class="top-title">Check out our video tutorials to get a<br> jumpstart on using Listrunner.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="video-list">
+                <li class="col-md-4" data-type-video="vimeo" >
+                    <div class="video-bl" id="video_76922244">
+                        <img src="{{ site.baseurl }}/img/support/video/video-1.jpg" alt="video-1">
+                        <a href="#" class="play-btn" data-video-id="76922244"></a>
+                    </div>
+                    <h3 class="video-title">Creating Charts and Dashboards (pt1)</h3>
+                    <div class="video-excerpt">
+                        <p>This video is the first in a three part tutorial series on creating a dashboard using the demo data source available in your project.</p>
+                    </div>
+                    <a href="#" class="full-size"></a>
+                </li>
+                <li class="col-md-4">
+                    <div class="video-bl">
+                        <img src="{{ site.baseurl }}/img/support/video/video-2.jpg" alt="video-1">
+                        <a href="#" class="play-btn"></a>
+                    </div>
+                    <h3 class="video-title">Creating Charts and Dashboards (pt2)</h3>
+                    <div class="video-excerpt">
+                        <p>This video covers bullet, bar, and pie charts as well as using formulas and organizing your dashboard.</p>
+                    </div>
+                    <a href="#" class="full-size"></a>
+                </li>
+                <li class="col-md-4">
+                    <div class="video-bl">
+                        <img src="{{ site.baseurl }}/img/support/video/video-3.jpg" alt="video-1">
+                        <a href="#" class="play-btn"></a>
+                    </div>
+                    <h3 class="video-title">Creating Charts and Dashboards (pt3)</h3>
+                    <div class="video-excerpt">
+                        <p>In this section we will look at combining data from multiple data sources, visualizing data over a time series.</p>
+                    </div>
+                    <a href="#" class="full-size"></a>
+                </li>
+                <li class="col-md-4">
+                    <div class="video-bl">
+                        <img src="{{ site.baseurl }}/img/support/video/video-4.jpg" alt="video-1">
+                        <a href="#" class="play-btn"></a>
+                    </div>
+                    <h3 class="video-title">CSV and XLS Best Practices</h3>
+                    <div class="video-excerpt">
+                        <p>This tutorials covers best practices for preparing your CSV or XLS file to upload to Listrunner as a data source.</p>
+                    </div>
+                    <a href="#" class="full-size"></a>
+                </li>
+                <li class="col-md-4">
+                    <div class="video-bl">
+                        <img src="{{ site.baseurl }}/img/support/video/video-5.jpg" alt="video-1">
+                        <a href="#" class="play-btn"></a>
+                    </div>
+                    <h3 class="video-title">Measures and Dimensions</h3>
+                    <div class="video-excerpt">
+                        <p>The concept of measures and dimensions are often a source of confusion. We try to clear it up with this video.</p>
+                    </div>
+                    <a href="#" class="full-size"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,98 @@
+/*PRODUCT PAGE*/
+.product-content {
+    background-color: #f3f3f2;
+/*TOUR PAGE*/
+    .security-info {
+        padding-top: 130px;
+        padding-bottom: 30px;
+        background: #17222f url('../img/product-top-bg.jpg') 50% 0 /cover no-repeat;
+        text-align: center;
+        min-height: 506px;
+        font: 300 24px/34px 'Source Sans Pro', sans-serif;
+        color: #fff;
+        .security-body {
+            .security-title {
+                font: bold 48px/48px 'Source Sans Pro', sans-serif;
+                letter-spacing: 6px;
+                border-bottom: 2px solid #fff;
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                margin-bottom: 61px;
+                color: #fff;
+                @include transition(all 0.35s);
+                &:hover {
+                    border-color: transparent;
+                }
+            }
+
+            .security-subtitle{ 
+                font-size: 40px;
+                letter-spacing: 2px;
+                line-height: 40px;
+                font-weight: normal;
+                padding-bottom: 24px;
+            }
+        }
+    }  
+
+    .opport-bl {
+        font: 300 24px/36px 'Source Sans Pro', sans-serif;
+        color: #666;
+        .opport-list {
+            li {
+                background-color: #eeeeed;
+                padding: 127px 0 125px;
+                @include clearfix();
+                .col-md-12 {
+                    padding: 0 94px;
+                    @include clearfix();
+                    .left-bl {
+                        padding: 9px 0 0 0;
+                        width: 32%;
+                        img {
+                            display: block;
+                            max-width: 100%;
+                        }
+                    }
+
+                    .right-bl {
+                        width: 68%;
+                        padding: 0;
+                        .opport-title {
+                            font: bold 48px/52px 'Source Sans Pro', sans-serif;
+                            margin-bottom: 14px;
+                            color: #232323;
+                        }
+
+                        .opport-subtitle{
+                            font: normal 30px/34px 'Source Sans Pro', sans-serif;
+                            margin-bottom: 22px;
+                            color: #232323;
+                        }
+
+                        .oport-content {
+
+                        }
+                    }
+                }
+
+                &:nth-child(2n) { 
+                    background-color: #f3f3f2;
+                    .col-md-12 {
+                        .left-bl {
+                            float: right;
+                            img {
+                                float: right;
+                            }
+                        }
+
+                        .right-bl {
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

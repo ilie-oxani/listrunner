@@ -3,7 +3,7 @@ layout: support
 title: FAQ
 category: faq
 ---
-{% assign no_posts = true %}
+<!--{% assign no_posts = true %}
 
 {% for post in site.posts %}      
   {% if post.category == 'faq' %}
@@ -21,4 +21,94 @@ category: faq
 
 {% if no_posts %}
   <div class="alert alert-warning">There is no content</div>
-{% endif %}
+{% endif %}-->
+
+<div class="info-bl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="support-top-bl">
+                    <div class="support-top-content">
+                        <h1 class="top-title">Frequently Asked Questions (FAQ)</h1>
+                        <p>Here are some of the questions we're most frequently asked about Listrunner.<br> If you cannot find the answer to your question here please <a href="#">send us an email.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bs-docs-section">
+                <ul class="questions-list">
+                    <li class="col-md-6">
+                        <h3 class="question-title">Can Listrunner connect to MongoDB?</h3>
+                        <div class="question-content">
+                            <p>Listrunner supports MongoDB through a tool developed by Stripe called MoSQL. MoSQL creates and live-updates a PostgreSQL instance of your MongoDB data.</p>
+                            <p>Please see our <a href="">documentation on connecting to MongoDB</a> for more information.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Does Listrunner have an API?</h3>
+                        <div class="question-content">
+                            <p>We've intentionally chosen not to build a data upload API because no matter how much time we spent building it, it would never be as flexible, simple or have as much language support as the databases you're already using. If you want an isolated warehouse to put your data simply launch another database instance or add an additional table to your existing database to store the information.</p>
+                            <p>Data stored in your own database will be easier to create, manage and ultimately be kept more secure than a 3rd party API. You are likely quite used to writing data to a specific type of database already. We'd rather you continue doing more of what you know rather than learn a new system that we'd create.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Can I Restrict user Access at the Dashboard Level?</h3>
+                        <div class="question-content">
+                            <p>To keep security clean, clear and simple Listrunner user permissions are only applied on the project level. If you have dashboards that should only be accessible to certain users you should consider grouping them into a new project. On our interface switching between projects is as simple as switching between dashboards and your data will be nicely sorted.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Does Listrunner store my data?</h3>
+                        <div class="question-content">
+                            <p>Not at all. Your data is your own, and we never store a copy. As your data travels to and from our servers (so we can run the analytics), it is heavily encrypted. And it never stays in our servers so you fully own your data from start to finish.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Can I White-Label Listrunner?</h3>
+                        <div class="question-content">
+                            <p>Listrunner does not support white-labeling of the product or the ability to embed charts specific to non-Listrunner users. We receive many requests to integrate Listrunner within other applications but support for this is not a current focus. Our focus is on being the best internal interface to data.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Does Listrunner support Joins across Databases?</h3>
+                        <div class="question-content">
+                            <p>No. Listrunner does support joins across tables but does not support joins across different datasources. You can easily plot the contents of two different datasources on the same chart by adding additional layers but one layer cannot reference two datasources.</p>
+                            <p>The problem of joining two different datasources is called ETL and is very extensive and expensive. Unless your company has a frequent need for a variety of such queries, we recommend writing your own custom scripts to do the combined queries and to store the results in a summary table.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Can I limit database access to only certain tables?</h3>
+                        <div class="question-content">
+                            <p>Listrunner requires you to grant a read only user for its database connection. It is easiest to grant access to all of the tables, but if you would like Listrunner to have access to only certain tables you can grant a user with read access to specific tables only.</p>
+                        </div>
+                    </li><!--
+                    <li class="col-md-6">
+                        <h3 class="question-title">Can teammates write malicious queries?</h3>
+                        <div class="question-content">
+                            <p>Listrunner is setup with a read-only access user. Teammates with Create or Admin access to your projects can read the data they'd like, but can not do anything to modify the database. Though they would be caught by the database anyway, as an extra level of precaution Listrunner scans and rejects any malicious keywords such as DELETE and INSERT before executing queries.</p>
+                            <p>If data access is an issue you can <a href="#">limit access to specific tables</a>.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Does Listrunner support Joins across Tables?</h3>
+                        <div class="question-content">
+                            <p>Yes. Listrunner automatically detects foreign key relations between your tables when it imports your schema and joins are automatically built into your queries when dragging columns from related tables in the <a href="#">chart creator</a>.</p>
+                            <p>If you're using a MySQL MyISAM database the foreign keys are not explicitly stored and therefore cannot be automatically detected by Listrunner. You will need to manually specify the joins in the <a href="#">schema editor</a> for your database. Read more about <a href="#">manually setting up foreign keys here.</a></p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Does Listrunner affect server performance?</h3>
+                        <div class="question-content">
+                            <p>Listrunner runs its queries on the databases its connected to so the server will take the additional load of those queries. If you are concerned about an additional load to your database we recommend adding more memory, creating a replica or running off of a backup database if you are not already.</p>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

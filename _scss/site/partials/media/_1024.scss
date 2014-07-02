@@ -204,5 +204,19 @@
 			}
 		}
 	}
+
+	/*SUPPORT PAGE*/
+	.support-content {
+	    .video-list {
+	        li {
+	            width: 320px;
+	            &:first-child,
+	            &:nth-child(3n + 1) {
+	                padding-left: 0;
+	                width: 300px;
+	            }
+	        }
+	    }
+	}
 }
 
