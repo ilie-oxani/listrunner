@@ -2,8 +2,9 @@
 layout: product
 title: List Runner
 category: listrunner
+customers_page: listrunner-page
 ---
-{% assign no_posts = true %}
+<!--{% assign no_posts = true %}
 
 {% for post in site.posts %}      
   {% if post.category == 'listrunner' %}
@@ -21,4 +22,82 @@ category: listrunner
 
 {% if no_posts %}
   <div class="alert alert-warning">There is no content</div>
-{% endif %}
+{% endif %}-->
+
+<div class="request-demo-bl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cetntrate-middle">
+                    <div class="request-demo-content">
+                        <h1 class="top-title">Because we believe that data<br class="visible-lg"> visualization can be easy and beautiful.</h1>
+                        <a href="#" class="btn btn-big request-demo-btn">Request a Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bs-docs-section">
+                <ul class="info-list">
+                    <li class="col-md-6">
+                        <h3 class="question-title">Why Listrunner?</h3>
+                        <div class="question-content">
+                            <p>Listrunner was born from a pain common to almost anyone who has been on rounds: we waste too much time organizing care rather than providing care.</p>
+                            <p>The time we spend organizing lists, repeating stories and tasks, and tracking down information someone already knows reduces our ability to take care of our patients.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Our story</h3>
+                        <div class="question-content">
+                            <p>Listrunner was inspired by the index cards and notebooks residents carry in their whitecoats so they can stay on top of their patients.</p>
+                            <p>We noticed how much of our day was not spent on patient care or teaching, but lost to the scut-work of finding and organizing information rather than using it.</p>
+                            <p>When we asked why we were being so inefficient, we kept hearing the same thing. Can’t we put our paper lists, cards, and books on our phones? With Listrunner we are beginning to do just that.</p>
+                        </div>
+                    </li>
+                    <li class="col-md-6">
+                        <h3 class="question-title">Our mission</h3>
+                        <div class="question-content">
+                            <p>Listrunner was started with a mission to let clinical teams reduce the scut work of clinical care and empower clinicians to focus on healing.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="collective-bl">
+                    <h2 class="category-title">Built by doctors for doctors</h2>
+                    {% for post in site.posts %}      
+                        {% if post.category == 'meet_the_team' and post.doctor == true %}
+                            <div class="col-md-6">
+                                <div class="people-bl">
+                                    <div class="people-date">
+                                        <div class="people-img">
+                                            <img src="{{site.baseurl}}/img/{{ post.image }}" alt="{{ post.name }}">
+                                        </div>
+                                        <div class="people-info">
+                                            <h3 class="people-name">{{ post.name }}</h3>
+                                            <p class="people-job">{{ post.team }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="people-content">
+                                        <p>{{ post.description }}</p>
+                                        <div class="people-comment">
+                                            {{ post.content}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% assign no_posts = false %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if no_posts %}
+                        <div class="alert alert-warning">There is no content</div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

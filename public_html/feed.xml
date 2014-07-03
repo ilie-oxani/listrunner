@@ -11,8 +11,8 @@
     <title xml:lang="en">Jekyll • Simple, blog-aware, static sites</title>
     <atom:link type="application/atom+xml" href="http://jekyllrb.com/feed.xml" rel="self"/>
     <link>http://jekyllrb.com/</link>
-    <pubDate>Wed, 02 Jul 2014 08:53:33 -0700</pubDate>
-    <lastBuildDate>Wed, 02 Jul 2014 08:53:33 -0700</lastBuildDate>
+    <pubDate>Thu, 03 Jul 2014 08:16:18 -0700</pubDate>
+    <lastBuildDate>Thu, 03 Jul 2014 08:16:18 -0700</lastBuildDate>
     <language>en-US</language>
     <generator>Jekyll v2.0.3</generator>
     <description>Transform your plain text into static websites and blogs.</description>
@@ -24,166 +24,6 @@
       <width>144</width>
       <height>73</height>
     </image>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/support/2012/04/06/press%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>support</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/press%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first videos on this press&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/product/2012/04/06/press%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>product</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/press%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first tour on this press&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/support/2012/04/06/geting-started.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>support</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/geting-started.html</guid>
-      <description>&lt;h3&gt;This is the first post on getstarted bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/customers/2012/04/06/first-testiomonials-post.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>customers</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-testiomonials-post.html</guid>
-      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/customers/2012/04/06/first-post.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>customers</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-post.html</guid>
-      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/customers/2012/04/06/first-foo-post.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>customers</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/customers/2012/04/06/first-foo-post.html</guid>
-      <description>&lt;h3&gt;This is the first post on this bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>product</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/blog%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on security bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>support</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/blog%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on faq bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/support/2012/04/06/about%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>support</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/support/2012/04/06/about%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on contact bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My first post</title>
-      <link>http://jekyllrb.com/product/2012/04/06/about%205.10.06%20PM.html</link>
-      <pubDate>Fri, 06 Apr 2012 21:35:00 -0700</pubDate>
-      <dc:creator></dc:creator>
-      
-      
-      <category>product</category>
-      
-      <guid isPermaLink="true">http://jekyllrb.com/product/2012/04/06/about%205.10.06%20PM.html</guid>
-      <description>&lt;h3&gt;This is the first post on listrunner bldefrtyhyog&lt;/h3&gt;
-
-&lt;p&gt;Hello world.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Ignat Avramov</title>
@@ -279,7 +119,7 @@
       <category>company</category>
       
       <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/trevor-chan.html</guid>
-      <description>&lt;p&gt;Trevor is a family doctor with practice that covers the spectrum of healthcare. He works as a hospitalist, admitting patients in the acute care setting. He also shares a maternity practice and previously ran a community based clinic. He is currently the lead for quality improvement for his hospital based practice...&lt;/p&gt;
+      <description>&lt;p&gt;The tools available simply did not meet the needs of a busy clinical teaching team with an overflowing list of patients. That’s why we built Listrunner. Everything we’ve heard from tired residents and frustrated students, we’ve put into Listrunner.&lt;/p&gt;
 </description>
     </item>
     
@@ -293,7 +133,277 @@
       <category>company</category>
       
       <guid isPermaLink="true">http://jekyllrb.com/company/2012/04/06/sameer-ahmed.html</guid>
-      <description>&lt;p&gt;Jeeshan is an MD/PhD scholar who studied health information systems at Oxford as a Rhodes Scholar. He has worked across the breadth of healthcare technology from designing novel hardware diagnostics at NASA to the implementation and evaluation of commercialized software platforms...&lt;/p&gt;
+      <description>&lt;p&gt;We saw first hand how much time we weren’t spending on patients because we had to organize information instead of using it. As clinicians, we need to spend our time caring for our patients and teaching our learners.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Posts</title>
+      <link>http://jekyllrb.com/blog/2012/03/15/guest-blogs%20copy%202.html</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
+      <dc:creator>John Smith</dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/03/15/guest-blogs%20copy%202.html</guid>
+      <description>&lt;p&gt;If you want to create a guest post that will appear as if written by another author, simply add an &lt;code&gt;author&lt;/code&gt; attribute to the
+YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page
+as well as on the individual post pages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Posts</title>
+      <link>http://jekyllrb.com/blog/2012/03/15/guest-blogs%20copy.html</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
+      <dc:creator>John Smith</dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/03/15/guest-blogs%20copy.html</guid>
+      <description>&lt;p&gt;If you want to create a guest post that will appear as if written by another author, simply add an &lt;code&gt;author&lt;/code&gt; attribute to the
+YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page
+as well as on the individual post pages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Guest Posts</title>
+      <link>http://jekyllrb.com/blog/2012/03/15/guest-blogs.html</link>
+      <pubDate>Thu, 15 Mar 2012 00:00:00 -0700</pubDate>
+      <dc:creator>John Smith</dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/03/15/guest-blogs.html</guid>
+      <description>&lt;p&gt;If you want to create a guest post that will appear as if written by another author, simply add an &lt;code&gt;author&lt;/code&gt; attribute to the
+YAML header of your blog post. This will be picked up in the template and displayed in the meta-section both on the front page
+as well as on the individual post pages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Snippets</title>
+      <link>http://jekyllrb.com/blog/2012/02/10/code-snippets%20copy%202.html</link>
+      <pubDate>Fri, 10 Feb 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/02/10/code-snippets%20copy%202.html</guid>
+      <description>&lt;p&gt;Whenever you need to post a code snippet, use the liquid tags &lt;code&gt;hilight&lt;/code&gt; and &lt;code&gt;endhilight&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# some code goes here&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Snippets</title>
+      <link>http://jekyllrb.com/blog/2012/02/10/code-snippets%20copy.html</link>
+      <pubDate>Fri, 10 Feb 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/02/10/code-snippets%20copy.html</guid>
+      <description>&lt;p&gt;Whenever you need to post a code snippet, use the liquid tags &lt;code&gt;hilight&lt;/code&gt; and &lt;code&gt;endhilight&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# some code goes here&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Snippets</title>
+      <link>http://jekyllrb.com/blog/2012/02/10/code-snippets.html</link>
+      <pubDate>Fri, 10 Feb 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/02/10/code-snippets.html</guid>
+      <description>&lt;p&gt;Whenever you need to post a code snippet, use the liquid tags &lt;code&gt;hilight&lt;/code&gt; and &lt;code&gt;endhilight&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# some code goes here&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hello World!&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Note that this only provides color-coding. For that you might need to use a front end colorization engine like Highlight.JS or something similar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using the Web Icons</title>
+      <link>http://jekyllrb.com/blog/2012/01/19/using-web-icons%20copy%202.html</link>
+      <pubDate>Thu, 19 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      <category>Off</category>
+      
+      <category>the</category>
+      
+      <category>Charts</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/19/using-web-icons%20copy%202.html</guid>
+      <description>&lt;p&gt;This template uses &lt;a href=&quot;http://typicons.com/&quot;&gt;Typicons&lt;/a&gt; web font, provided by &lt;a href=&quot;http://fontello.com/&quot;&gt;Fontello&lt;/a&gt; font bundling service. It allows you to quickly
+add nice icons into your pages by using css tags.&lt;/p&gt;
+
+&lt;p&gt;To add an icon somewhere in the template simply do:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;icon-home&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/img/icons.png&quot; title=&quot;Available Icons&quot; alt=&quot;Available Icons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These should work in all the browsers, all the way down to and including IE7, but not IE6.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using the Web Icons</title>
+      <link>http://jekyllrb.com/blog/2012/01/19/using-web-icons%20copy.html</link>
+      <pubDate>Thu, 19 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      <category>Off</category>
+      
+      <category>the</category>
+      
+      <category>Charts</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/19/using-web-icons%20copy.html</guid>
+      <description>&lt;p&gt;This template uses &lt;a href=&quot;http://typicons.com/&quot;&gt;Typicons&lt;/a&gt; web font, provided by &lt;a href=&quot;http://fontello.com/&quot;&gt;Fontello&lt;/a&gt; font bundling service. It allows you to quickly
+add nice icons into your pages by using css tags.&lt;/p&gt;
+
+&lt;p&gt;To add an icon somewhere in the template simply do:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;icon-home&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/img/icons.png&quot; title=&quot;Available Icons&quot; alt=&quot;Available Icons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These should work in all the browsers, all the way down to and including IE7, but not IE6.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using the Web Icons</title>
+      <link>http://jekyllrb.com/blog/2012/01/19/using-web-icons.html</link>
+      <pubDate>Thu, 19 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator></dc:creator>
+      
+      <category>Off</category>
+      
+      <category>the</category>
+      
+      <category>Charts</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/19/using-web-icons.html</guid>
+      <description>&lt;p&gt;This template uses &lt;a href=&quot;http://typicons.com/&quot;&gt;Typicons&lt;/a&gt; web font, provided by &lt;a href=&quot;http://fontello.com/&quot;&gt;Fontello&lt;/a&gt; font bundling service. It allows you to quickly
+add nice icons into your pages by using css tags.&lt;/p&gt;
+
+&lt;p&gt;To add an icon somewhere in the template simply do:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;icon-home&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This will insert a home icon, just as the one seen in the sidebar. The available class names you can use are as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/resources/img/icons.png&quot; title=&quot;Available Icons&quot; alt=&quot;Available Icons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These should work in all the browsers, all the way down to and including IE7, but not IE6.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Source Settings — New and Improved!</title>
+      <link>http://jekyllrb.com/blog/2012/01/18/hello-world%20copy%202.html</link>
+      <pubDate>Wed, 18 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator>Natasha</dc:creator>
+      
+      <category>Features</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/18/hello-world%20copy%202.html</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+
+&lt;p&gt;This is just a sample post.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.&lt;/p&gt;
+
+&lt;p&gt;Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Source Settings — New and Improved!</title>
+      <link>http://jekyllrb.com/blog/2012/01/18/hello-world%20copy.html</link>
+      <pubDate>Wed, 18 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator>Natasha</dc:creator>
+      
+      <category>Features</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/18/hello-world%20copy.html</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+
+&lt;p&gt;This is just a sample post.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.&lt;/p&gt;
+
+&lt;p&gt;Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Source Settings — New and Improved!</title>
+      <link>http://jekyllrb.com/blog/2012/01/18/hello-world.html</link>
+      <pubDate>Wed, 18 Jan 2012 00:00:00 -0800</pubDate>
+      <dc:creator>Natasha</dc:creator>
+      
+      <category>Features</category>
+      
+      
+      <category>blog</category>
+      
+      <guid isPermaLink="true">http://jekyllrb.com/blog/2012/01/18/hello-world.html</guid>
+      <description>&lt;p&gt;Hello World!&lt;/p&gt;
+
+&lt;p&gt;This is just a sample post.&lt;/p&gt;
+
+&lt;p&gt;Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit. Praesent blandit, mi id facilisis adipiscing, tortor tellus mollis quam, sed dignissim sapien diam ac lectus. Nunc eget ornare quam. Vivamus sit amet tortor dolor, non egestas ligula. Mauris nisi risus, semper nec blandit id, suscipit eget dolor. Sed placerat odio at erat porttitor varius. Phasellus ornare vestibulum dolor ac rhoncus. Mauris laoreet varius est eu rhoncus. Curabitur facilisis mauris eu purus pharetra vitae tincidunt nulla gravida. Duis sagittis, felis a luctus mattis, metus sem tempus velit, sit amet blandit tellus nisi id augue.&lt;/p&gt;
+
+&lt;p&gt;Proin feugiat libero ac lorem mollis fermentum. Cras et lacus sodales nisl facilisis ornare. Sed dolor eros, pulvinar ac varius non, bibendum eget odio. Nulla facilisi. Pellentesque et nisi a tellus ullamcorper faucibus. Nullam sagittis tempor mi non mattis. Proin ultricies, enim sit amet bibendum tristique, ligula ante feugiat nunc, sit amet imperdiet tortor nisl et felis. Pellentesque et nisl dui, non dictum libero. Vivamus tempor ante ac leo suscipit a sodales ligula iaculis. Curabitur massa mi, semper sed bibendum eget, auctor in nulla. Quisque at mi in ligula viverra suscipit sed vitae leo.&lt;/p&gt;
 </description>
     </item>
     

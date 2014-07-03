@@ -10,6 +10,8 @@ sass:
     style: :extended
 host:        0.0.0.0
 port:        4000
-baseurl:     ""
+baseurl:     "http://upload.myterranet.com/listrunner/public_html"
 url:         http://localhost:4000
 destination: ./public_html
+paginate: 7
+paginate_path: "company/blog/page:num"

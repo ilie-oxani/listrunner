@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	
-	function video() {
+	/*function video() {
 		var iframe = $('#player1')[0],
 	    player = $f(iframe),
 	    status = $('.status');
@@ -26,18 +26,26 @@ $(document).ready(function(){
 		});
 
 		player.api('play');
-	}
+	}*/
 
 	// Call the API when a button is pressed
-	$('button').bind('click', function() {
+	/*$('button').bind('click', function() {
 	    player.api($(this).text().toLowerCase());
-	});
+	});*/
 
 
 
 	/*Question*/
 	( function() {
 	    var container = document.querySelector('.questions-list');
+	    var msnry = new Masonry( container, {
+	      itemSelector: '.col-md-6'
+	    });
+	  })();
+
+	  /*Info list*/
+	( function() {
+	    var container = document.querySelector('.info-list');
 	    var msnry = new Masonry( container, {
 	      itemSelector: '.col-md-6'
 	    });

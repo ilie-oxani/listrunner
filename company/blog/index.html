@@ -2,7 +2,10 @@
 layout: company
 title: Blog
 category: blog
+company_page: blog-page
 ---
+
+<!--
 {% for post in site.posts %}      
   {% if post.category == 'blog' %}
     <div class="post">
@@ -19,4 +22,95 @@ category: blog
 
 {% if no_posts %}
   <div class="alert alert-warning">There is no content</div>
-{% endif %}
+{% endif %}-->
+<div class="company-top-bl blog-bl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-top-bl">
+                    <div class="about-top-content">
+                        <h1 class="top-title">We're changing the way the world<br> looks at data.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blog-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-3 blog-category">
+                    <div class="bs-docs-section">
+                        <h3 class="category-title">TOPICS</h3>
+                        <ul class="category-list">
+                            <li><a href="#">Shout Out</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Expert</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Opinion</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Data</a></li>
+                            <li><a href="#">Off The Charts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9 blog-post">
+                    <div class="bs-docs-section">
+                        <ul class="blog-post-list">
+                            <!--<li>
+                                <h3 class="category-name">Features</h3>
+                                <a href="#" class="post-title">Data Source Settings — New and Improved!</a>
+                                <p class="post-info"><span class="post-date">Posted May 21, 2014</span>/<span class="post-author">By Natasha</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Off the Charts</h3>
+                                <a href="#" class="post-title">Improved Search in Chart Creator</a>
+                                <p class="post-info"><span class="post-date">Posted May 18, 2014</span>/<span class="post-author">By Natasha</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Opinion</h3>
+                                <a href="#" class="post-title">Meet Your Personal Chartio Teammate</a>    
+                                <p class="post-info"><span class="post-date">Posted March 12, 2014</span>/<span class="post-author">By Antoine Svensson</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Features</h3>
+                                <a href="#" class="post-title">Before you quit your job to become a developer, go down this 6-point checklist</a>   
+                                <p class="post-info"><span class="post-date">Posted March 3, 2014</span>/<span class="post-author">By Alexander Lignon</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Shout Out</h3>
+                                <a href="#" class="post-title">Google Analytics and Listrunner</a>    
+                                <p class="post-info"><span class="post-date">Posted February 9, 2014</span>/<span class="post-author">By Antoine Svensson</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Expert</h3>
+                                <a href="#" class="post-title">The Effects of SXSW on Austin Bar Tabs</a>   
+                                <p class="post-info"><span class="post-date">Posted February 2, 2014</span>/<span class="post-author">By Natasha</span></p>
+                            </li>
+                            <li>
+                                <h3 class="category-name">Data</h3>
+                                <a href="#" class="post-title">Cohort Analysis Brings Valuable Insights to Marketing</a>   
+                                <p class="post-info"><span class="post-date">Posted January 21, 2014</span>/<span class="post-author">By Alexander Lignon</span></p>
+                            </li>-->
+                            <!-- Show last 5 posts here -->
+                            {% for post in paginator.posts %}
+                                {% if post.category == 'blog' %}
+                                <li>
+                                    <h3 class="category-name">{{ post.tags }}</h3>
+                                    <a href="{{site.baseurl}}{{post.url}}" class="post-title">{{ post.title }}</a>   
+                                    <p class="post-info"><span class="post-date">Posted {{post.date|date:"%b %d, %Y"}}</span>/<span class="post-author">By {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span></p>
+                                </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% include section_nav.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

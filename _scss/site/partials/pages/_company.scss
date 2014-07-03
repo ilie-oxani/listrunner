@@ -1,0 +1,229 @@
+/*COMPANY PAGE*/
+.collective-bl {
+    padding-top: 67px;
+    .category-title {
+        font: bold 24px/24px 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 4px;
+        padding-bottom: 69px;
+        color: #232323;
+    }
+
+    .col-md-6 {
+        font: 300 18px/28px 'Source Sans Pro', sans-serif;
+        padding-left: 0;
+        padding-right: 20px;
+        margin-bottom: 65px;
+        color: #232323;
+        .people-date {
+            padding-bottom: 32px;
+            @include clearfix();
+            .people-img {
+                display: block;
+                float: left;
+                margin-right: 43px;
+                @include size(128px);
+                img {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto;
+                    line-height: 128px;
+                    @include border-radius(50%);
+                }
+            }
+
+            .people-info {
+                padding-top: 32px;
+                float: left;
+                .people-name {
+                    font-size: 24px;
+                    font-weight: bold;
+                    margin-bottom: 4px;
+                    color: #232323;
+                }
+
+                .people-job {
+                    font-weight: normal;
+                    color: #666;
+                }
+            }
+        }
+
+        .people-content {
+            @include clearfix();
+            p {
+                margin-bottom: 13px;
+            }
+
+            .people-comment {
+                font-weight: normal;
+                padding-top: 40px;
+                color: #666;
+            }
+        }
+        
+        .read-more {
+            font-weight: normal;
+            color: #232323;
+        }
+
+        &:nth-child(2n + 1) {
+            padding-right: 0;
+            padding-left: 20px;
+        }
+    }
+}
+
+.company-content {
+    background-color: #f3f3f2;
+    padding-bottom: 65px;
+    .company-top-bl {
+        font: 300 40px/50px 'Source Sans Pro', sans-serif;
+        display: block;
+        text-align: center;
+        background: #828282;
+        
+        color: #f5f5f5;
+        .about-top-bl {
+            display: block;
+            width: 100%;
+            min-height: 345px;
+            .about-top-content{
+                display: table;
+                vertical-align: middle;
+                width: 100%;
+                height: 345px;
+                h1 {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        &.about-bl {
+            background: transparent url('../img/about-top-bl.jpg')   center top / cover no-repeat;
+        }
+
+        &.blog-bl {
+            background: transparent url('../img/blog-top-bg.jpg')   center top / cover no-repeat;
+        }
+    }
+
+/*Abaot page*/
+    .medical-board {
+        background-color: #eeeeed;
+        @include clearfix();
+    }
+/*Blog page*/
+
+    &.blog-page {
+        padding-bottom: 0;
+        background-color: #eeeeed;
+        .blog-body {
+            .col-md-12 {
+                .blog-category {
+                    padding-top: 145px;
+                    float: right;
+                    width: 31.6%;
+                    padding-left: 84px;
+                    padding-bottom: 136px;
+                    .category-title {
+                        font: bold 30px/34px 'Source Sans Pro', sans-serif;
+                        text-transform: uppercase;
+                        letter-spacing: 4px;
+                        margin-bottom: 40px;
+                        color: #232323;
+                    }
+
+                    .category-list {
+                        font: 300 30px/60px 'Source Sans Pro', sans-serif;
+                        color: #666;
+                        li {
+                            
+                            a {
+                                text-decoration: none;
+                                color: #666;
+                                @include transition(color 0.35s);
+                                &:hover {
+                                    color: #232323;
+                                }
+                            }
+
+                            &.active a { 
+                                color: #232323;
+                            }
+                        }
+                    }
+                }
+
+                .blog-post {
+                    background-color: #f3f3f2;
+                    float: left;
+                    position: relative;
+                    width: 68.4%;
+                    padding-right: 84px;
+                    padding-top: 145px;
+                    padding-bottom: 136px;
+                    &:after {
+                        background-color: #f3f3f2;
+                        content: '';
+                        display: block;
+                        @include position(absolute, 0px auto auto -100%);
+                        @include size(100%);
+                    }
+
+                    .blog-post-list {
+                        font: normal 30px/44px 'Source Sans Pro', sans-serif;
+                        padding-bottom: 18px;
+                        color: #666;
+                        li {
+                            clear: both;
+                            display: block;
+                            padding-bottom: 46px;
+                            @include clearfix();
+                            .category-name {
+                                font-weight: 300;
+                                margin-bottom: 8px;
+                            }
+
+                            .post-title {
+                                text-decoration: none;
+                                margin-bottom: 9px;
+                                display:inline-block;
+                                color: #232323;
+                                @include transition(color 0.35s);
+                                &:hover {
+                                    color: #666;
+                                }
+                            }
+
+                            .post-info {
+                                font-size: 16px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-nav {
+            font: normal 22px/22px 'Source Sans Pro', sans-serif;
+            border-top: 2px solid #232323;
+            padding-top: 29px;
+            color: #232323;
+
+            a {
+                text-decoration: none;
+                color: #232323;
+            }
+
+            @include clearfix();
+            .left,.right { float: left;}
+            .left { margin-right: 65px;}
+
+        }
+    }
+}
+    

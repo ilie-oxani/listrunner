@@ -1,0 +1,43 @@
+---
+layout: default
+page_class: customers-page
+---
+<section class="page-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-menu">
+                    <h3 class="page-title">{{ page.title }}</h3>
+                    {% include company_nav.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="customers-content {{ page.customers_page }}"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="collective-bl">
+                    <div class="col-md-6">
+                        <div class="people-bl">
+                            <div class="people-date">
+                                <div class="people-img">
+                                    <img src="{{site.baseurl}}/img/{{ page.image }}" alt="{{ post.name }}">
+                                </div>
+                                <div class="people-info">
+                                    <h3 class="people-name">{{ page.name }}</h3>
+                                    <p class="people-job">{{ page.team }}</p>
+                                </div>
+                            </div>
+                            <div class="people-content">
+                                <p>{{ page.description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
