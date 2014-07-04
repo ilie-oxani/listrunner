@@ -1,6 +1,6 @@
 highlighter: pygments
 markdown: rdiscount
-#pygments: true  
+pygments: true  
 exclude: ['Rakefile', 'README.textile', 'config.rb', 'CNAME']
 permalink: date
 google_analytics_id: UA-50755011-1

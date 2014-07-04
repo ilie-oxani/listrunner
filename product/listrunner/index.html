@@ -82,9 +82,6 @@ customers_page: listrunner-page
                                     </div>
                                     <div class="people-content">
                                         <p>{{ post.description }}</p>
-                                        <div class="people-comment">
-                                            {{ post.content}}
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -95,6 +92,21 @@ customers_page: listrunner-page
                     {% if no_posts %}
                         <div class="alert alert-warning">There is no content</div>
                     {% endif %}
+                </div>
+                <div class="people-comment-bl">
+                    {% for post in site.posts %}      
+                        {% if post.category == 'meet_the_team' and post.doctor == true %}
+                            <div class="col-md-6">
+                                <div class="people-bl">
+                                    <div class="people-content">
+                                        <div class="people-comment">
+                                            {{ post.content}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

@@ -1,0 +1,66 @@
+.collective-bl {
+    padding-top: 75px;
+    .category-title {
+        font: bold 34px/43px 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 4px;
+        padding-bottom: 77px;
+        color: #232323;
+    }
+
+    .col-md-6 {
+        font: 300 33px/48px 'Source Sans Pro', sans-serif;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 73px;
+        color: #666;
+        .people-date {
+            padding-bottom: 39px;
+            .people-img {
+                float: none;
+                margin-right: 0;
+                margin: 0 auto;
+                @include size(154px);
+                img {
+                    margin: 0 auto;
+                    line-height: 128px;
+                    @include size(154px);
+                }
+            }
+
+            .people-info {
+                padding-top: 51px;
+                float: none;
+                text-align: center;
+                .people-name {
+                    font-size: 44px;
+                    margin-bottom: 10px;
+                }
+
+                .people-job {
+
+                }
+            }
+        }
+
+        .people-content {
+            text-align: center;
+            p { margin-bottom: 25px;}
+
+            .people-comment {
+                padding-top: 40px;
+            }
+        }
+        
+        .read-more {
+            font-weight: normal;
+            color: #232323;
+        }
+
+        &:nth-child(2n + 1) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+}

@@ -1,0 +1,154 @@
+/*TOUR PAGE*/
+.product-content {
+	.security-info {
+        padding-top: 113px;
+        padding-bottom: 123px;
+        background: #17222f url('../img/product-top-bg.jpg') 50% 0 /cover no-repeat;
+        text-align: center;
+        min-height: 506px;
+        font: 300 33px/52px 'Source Sans Pro', sans-serif;
+        color: #fff;
+        .col-md-12 {
+        	padding: 0 53px;
+	        .security-body {
+	            .security-title {
+	                font: bold 48px/72px 'Source Sans Pro', sans-serif;
+	                border-bottom: 0 none;
+	                text-decoration: underline;
+	                margin-bottom: 50px;
+	                &:hover {
+	                	text-decoration: none;
+	                    border-color: transparent;
+	                }
+	            }
+
+	            .security-subtitle{ 
+	                font-size: 48px;
+	                letter-spacing: 2px;
+	                line-height: 60px;
+	                font-weight: normal;
+	                padding-bottom: 20px;
+	            }
+	        }
+        }
+    }   
+
+    .opport-bl {
+        font: normal 33px/52px 'Source Sans Pro', sans-serif;
+        text-align: center;
+        .opport-list {
+            li {
+                padding: 121px 0 119px;
+                .col-md-12 {
+                    padding: 0 52px;
+                    .left-bl {
+                        padding: 0 0 72px 0;
+                        width: auto;
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .right-bl {
+                        width: auto;
+                        padding: 0;
+                        .opport-title {
+                            font: bold 57px/72px 'Source Sans Pro', sans-serif;
+                            margin-bottom: 23px;
+                        }
+
+                        .opport-subtitle{
+                            font: 300 48px/52px 'Source Sans Pro', sans-serif;
+                            margin-bottom: 26px;
+                        }
+                    }
+                }
+
+                &:nth-child(2n) { 
+                    background-color: #f3f3f2;
+                    .col-md-12 {
+                        .left-bl {
+                            float: none;
+                            img {
+                                float: none;
+                            }
+                        }
+
+                        .right-bl {
+                            float: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .info-list,
+    .security-basic-list {
+        font: 300 33px/48px 'Source Sans Pro', sans-serif;
+        padding-top: 125px;
+        padding-bottom: 13px;
+        @include clearfix();
+        li {
+            padding-left: 0;
+            padding-right: 0px;
+            margin-bottom: 34px;
+            .question-title {
+                font: normal 38px/40px 'Source Sans Pro', sans-serif;
+                margin-bottom: 32px;
+            }
+
+            .question-content p {
+                margin-bottom: 26px;
+            }
+
+            &:nth-child(2n) {
+                padding-right: 0;
+                padding-left: 0px;
+            }
+        }
+    }
+
+    &.listrunner-page {
+        padding-bottom: 85px;
+
+	        .request-demo-bl {
+	            font-size: 48px;
+	            line-height: 60px;
+	            text-align: left;
+	            .cetntrate-middle { 
+	                .request-demo-content {
+	                    padding-bottom: 134px;
+	                    h1 {
+							margin-bottom: 74px;
+	                    }
+	                }
+	            }
+	        }
+
+	    .col-md-12 {
+        	padding: 0 53px;
+        }
+    }
+
+    .people-comment-bl {
+    	padding-top: 6px;
+	    .col-md-6 {
+	        font: 300 33px/48px 'Source Sans Pro', sans-serif;
+	        padding-left: 0;
+	        padding-right: 0;
+	        margin-bottom: 13px;
+	        .people-content {
+	            text-align: center;
+	            p { margin-bottom: 25px;}
+	            .people-comment {  padding-top: 0;}
+	        }
+	        
+	        &:nth-child(2n) {
+	            padding-right: 0;
+	            padding-left: 0;
+	        }
+	    }
+	}
+}
+/*finisc product*/

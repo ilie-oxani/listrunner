@@ -1,4 +1,37 @@
 @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	.request-demo-bl {
+		clear: both;
+	    font: 300 48px/67px 'Source Sans Pro', sans-serif;
+	    color: #ccc;
+	    .col-md-12 {
+	    	padding: 0 53px;
+		    .cetntrate-middle {
+		        display: block;
+		        width: 100%;
+		        min-height: 451px;
+		        .request-demo-content {
+		            display: block;
+		            padding-top: 108px;
+		            padding-bottom: 135px;
+		            width: 100%;
+		            h1 {
+			            display: block;
+						margin-bottom: 82px;
+						br {
+							display: none;
+						}
+		            }	
+		        }
+		    }
+	    }
+	    .btn.request-demo-btn {
+	    	padding: 50px 63px 49px;
+	    	font-size: 33px;
+	    	border: 1px solid #ccc;
+	    	color: #ccc;
+	    }
+	}
+
 	.wrapper {
 		padding-bottom: 0;
 		min-height: 0;
@@ -503,5 +536,8 @@
 				}
 			}
 		}
-
+	@import "support/768";
+	@import "product/768";
+	@import "company/768";
+	@import "customers/768";	
 }

@@ -48,6 +48,39 @@
             }
         }
     }
+
+    /*COMPANY PAGE*/
+    .people-comment-bl {
+        @include clearfix();
+        .col-md-6 {
+            font: 300 18px/28px 'Source Sans Pro', sans-serif;
+            padding-left: 0;
+            padding-right: 20px;
+            margin-bottom: 65px;
+            color: #232323;
+            .people-content {
+                @include clearfix();
+                p {
+                    margin-bottom: 13px;
+                }
+
+                .people-comment {
+                    font-weight: normal;
+                    color: #666;
+                }
+            }
+            
+            .read-more {
+                font-weight: normal;
+                color: #232323;
+            }
+
+            &:nth-child(2n) {
+                padding-right: 0;
+                padding-left: 20px;
+            }
+        }
+    }
 /*TOUR PAGE*/
     .security-info {
         padding-top: 130px;
