@@ -1,17 +1,39 @@
+version: 0.1.0
+name: listrunner-landing
+title: ListRunner
+tagline: 'Faster rounds. Seamless handovers.'
+description: 'Your patients and your team are everywhere. With Listrunner, put everything that is happening on the ward in one place.'
+keywords: 'Faster rounds. Seamless handovers.'
+baseurl: 
+image: logo.png
+email_contact: contact@listrunnerapp.com
+GAU: 
+permalink: '/:categories/:year/:month-:title/'
+static_path: /static/
+exclude:
+  - CNAME
+  - README.md
+  - gruntfile.js
+  - package.json
+  - node_modules
+devDependencies:
+  grunt: ~0.4.1
+  grunt-contrib-concat: ~0.3.0
+  grunt-contrib-uglify: ~0.4.0
+  grunt-contrib-imagemin: ~0.4.1
+  grunt-contrib-cssmin: ~0.9.0
+  grunt-shell: ~0.6.4
+  grunt-contrib-watch: ~0.6.1
+  grunt-convert: ~0.1.10
+
 highlighter: pygments
 markdown: rdiscount
 pygments: true  
-exclude: ['Rakefile', 'README.textile', 'config.rb', 'CNAME']
-permalink: date
 google_analytics_id: UA-50755011-1
-timezone: America/Los_Angeles
 sass:
     sass_dir: _scss
-    style: :extended
-host:        0.0.0.0
-port:        4000
-baseurl:     "http://upload.myterranet.com/listrunner/public_html"
-url:         http://localhost:4000
-destination: ./public_html
+    style: :compressed
 paginate: 7
 paginate_path: "company/blog/page:num"
+
+

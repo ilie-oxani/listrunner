@@ -1,3 +1,20 @@
+/*                *\
+ * $normalize.css *
+\*                */
+@import "site/plugins/normalize.scss";
+/*                *\
+ * $gridism.css   *
+\*                */
+@import "site/plugins/gridism.scss";
+/*                *\
+ * $pygments.css  *
+\*                */
+@import "site/plugins/pygments.scss";
+
+/*                *\
+ * $fancybox.css  *
+\*                */
+@import "site/plugins/jquery.fancybox.scss";
 @import "site/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
 @import "site/bourbon/bourbon";
 @import "site/base";
